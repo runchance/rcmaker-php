@@ -1,6 +1,7 @@
 /data export-ignore
 /official export-ignore
 /agent export-ignore
+/resources/project/windows.bat text eol=crlf
 /src/ThirdParty/** -text
 /src/Helper/Captcha/Font/** -text
 /src/Helper/Throttler/LICENSE-CodeIgniter.txt -text

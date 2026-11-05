@@ -1,3 +1,7 @@
 <?php
 
-return ['handler' => RC\Helper\View\Raw::class, 'suffix' => 'html', 'options' => []];
+return [
+    'handler' => rcEnv('view.handler', RC\Helper\View\Raw::class),
+    'suffix' => rcEnv('view.suffix', 'html'),
+    'options' => [],
+];

@@ -34,6 +34,9 @@ final class Initializer
                 throw new \RuntimeException('Invalid project template.');
             }
             $relative = str_replace('\\', '/', substr($entry->getPathname(), strlen($templateRoot) + 1));
+            if ($relative === 'windows.bat' && PHP_OS_FAMILY !== 'Windows') {
+                continue;
+            }
             $path = $files->path($relative);
             if (file_exists($path)) {
                 if (!is_file($path)) {
@@ -48,6 +51,8 @@ final class Initializer
             }
             if ($relative === 'index.php') {
                 $contents = str_replace('{{VENDOR_AUTOLOAD}}', $vendor . '/autoload.php', $contents);
+            } elseif ($relative === 'windows.bat') {
+                $contents = str_replace("\n", "\r\n", str_replace(["\r\n", "\r"], "\n", $contents));
             }
             $changes[$relative] = ['before' => null, 'after' => $contents];
         }

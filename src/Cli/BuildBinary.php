@@ -12,6 +12,7 @@ require_once __DIR__ . '/CustomIni.php';
 require_once __DIR__ . '/EncryptionSources.php';
 require_once __DIR__ . '/LegacyFontAssets.php';
 require_once __DIR__ . '/BuildStaticAssets.php';
+require_once __DIR__ . '/BuildComponents.php';
 
 final class BuildBinary
 {
@@ -87,6 +88,7 @@ final class BuildBinary
     ];
 
     private const DEFAULT_EXCLUDE_FILE_NAMES = [
+        'windows.bat',
         '.env',
         '.editorconfig',
         '.env.example',
@@ -152,6 +154,11 @@ final class BuildBinary
         $arch = ArtifactRepository::normalizeArch((string)($options['arch'] ?? 'auto'));
         ArtifactRepository::assertTarget($platform, $arch);
         $encrypt = (bool)($options['encrypt'] ?? false);
+        $componentProfile = $options['component-profile'] ?? null;
+        if ($componentProfile !== null && !is_array($componentProfile)) {
+            throw new RuntimeException('component-profile must be a selection array.');
+        }
+        $componentPlan = BuildComponents::plan($rootPath, $componentProfile);
 
         $customIni = self::resolveCustomIni((string)($options['custom-ini'] ?? ''), $rootPath);
         $excludePaths = Filesystem::parseExcludePaths((string)($options['exclude-files'] ?? ''));
@@ -188,15 +195,21 @@ final class BuildBinary
             Filesystem::copyTree(
                 $rootPath,
                 $stagingDir,
-                static function (string $relativePath) use ($excludePaths): bool {
+                static function (string $relativePath) use ($excludePaths, $componentPlan): bool {
                     if (self::shouldExcludeByDefault($relativePath)) {
                         return true;
                     }
-                    return Filesystem::shouldExclude($relativePath, $excludePaths);
+                    return BuildComponents::excludes($componentPlan, $relativePath)
+                        || Filesystem::shouldExclude($relativePath, $excludePaths);
                 }
             );
             if (!is_file($stagingDir . DIRECTORY_SEPARATOR . $entryFile)) {
                 throw new RuntimeException("Build entry {$entryFile} is missing or excluded.");
+            }
+            $componentStubs = BuildComponents::prepare($stagingDir, $componentPlan);
+            if ($componentPlan['mode'] === 'custom') {
+                self::emit($output, 'Custom component build: ' . (implode(', ', $componentPlan['components']) ?: 'core only')
+                    . '; omitted ' . count($componentPlan['excluded_libraries']) . ' bundled package(s).');
             }
 
             if (isset($options['static-encryption']) && $options['static-encryption'] !== false) {
@@ -303,6 +316,14 @@ final class BuildBinary
             'arch' => $arch,
             'php' => $version,
             'encrypted' => $encrypt,
+            'component_profile' => [
+                'mode' => $componentPlan['mode'],
+                'components' => $componentPlan['components'],
+                'keep_cli_tools' => $componentPlan['keep_cli_tools'],
+                'shared_libraries' => $componentPlan['shared_libraries'],
+                'excluded_libraries' => $componentPlan['excluded_libraries'],
+                'disabled_entries' => $componentStubs,
+            ],
         ] + ($staticProtection === null ? [] : ['static_encryption' => $staticProtection]);
     }
 
@@ -392,7 +413,7 @@ final class BuildBinary
         $packageOffset = strpos($lowerPath, $packageMarker);
         if ($packageOffset !== false) {
             $packagePath = substr($lowerPath, $packageOffset + strlen($packageMarker));
-            foreach (['data', 'official', 'agent', 'resources/project'] as $directory) {
+            foreach (['data', 'official', 'agent', 'bin', 'resources/project'] as $directory) {
                 if ($packagePath === $directory || str_starts_with($packagePath, $directory . '/')) {
                     return true;
                 }
@@ -410,6 +431,8 @@ final class BuildBinary
         }
 
         $fileName = strtolower(basename($relativePath));
+        if (str_starts_with($lowerPath, '/config/') && str_starts_with($fileName, '.rc-config-')
+            && (str_ends_with($fileName, '.lock') || str_ends_with($fileName, '.tmp'))) { return true; }
         if (str_starts_with($fileName, '.env.')) {
             return true;
         }

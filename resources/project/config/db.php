@@ -16,7 +16,7 @@ return [
             'database' => rcEnv('mysql.database', ''),
             'username' => rcEnv('mysql.username', ''),
             'password' => rcEnv('mysql.password', ''),
-            'charset' => 'utf8mb4',
+            'charset' => rcEnv('mysql.charset', 'utf8mb4'),
             'prefix' => rcEnv('mysql.prefix', ''),
             'options' => [],
         ],

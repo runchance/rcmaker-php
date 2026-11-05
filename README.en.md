@@ -15,7 +15,7 @@ RCMAKER is a resident-memory PHP application framework focused on fast delivery.
 | Capability | Benefit |
 | --- | --- |
 | Resident-memory Workerman runtime | Avoid repeated initialization for high-frequency HTTP requests and long-running tasks |
-| Standalone delivery | Package for supported Linux, macOS and Windows runtime/architecture combinations |
+| Standalone delivery | Package for supported Linux, macOS and Windows targets; optionally omit unused bundled components |
 | PHP and static asset protection | Keep development sources readable and protect the build when needed |
 | Multiple applications and process groups | Separate ports, worker counts and restart policies, or share a group |
 | Static applications and preloading | Preload before fork on Linux and per application group on Windows |
@@ -38,6 +38,8 @@ php index.php start
 
 Allow the Composer plugin and confirm project initialization when prompted. Open `http://127.0.0.1:8680/`.
 
+Windows initialization also generates `windows.bat` for double-click startup. `.env.example` lists all supported environment options while keeping standalone defaults; listing external services does not enable them.
+
 If plugins are disabled or initialization was skipped:
 
 ```shell
@@ -55,5 +57,6 @@ Use `php index.php interact` for delivery tools and optional RCMAKER AI DevKit i
 - [Legacy Project Migration](https://rcmaker.runchance.com/doc/#/md/migration.en)
 - [Application Process Groups](https://rcmaker.runchance.com/doc/#/md/app-process)
 - [Interactive Tools](https://rcmaker.runchance.com/doc/#/md/interact)
+- [Component Builds](https://rcmaker.runchance.com/doc/#/md/build-components.en)
 
 Do not overwrite an existing `.env`, configuration or vendor tree to migrate. Preview the dependency change, keep the generated backup and validate a separate project copy before production deployment.

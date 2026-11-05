@@ -85,6 +85,7 @@ final class Interactive
         $platform = self::platform();
         $arch = self::arch();
         $version = self::phpVersion();
+        $components = self::buildComponentSelection();
         $exclude = self::ask('额外排除文件或目录，多个路径用逗号分隔', '');
         $encrypt = self::confirm('是否加密项目源码', false);
         $staticEncryption = self::buildStaticSelection();
@@ -97,12 +98,17 @@ final class Interactive
             'encrypt' => $encrypt,
             'static-encryption' => $staticEncryption,
             'custom-ini' => $customIni,
+            'component-profile' => $components,
         ];
 
         self::summary([
             '操作系统' => $platform,
             '架构' => $arch,
             'PHP 版本' => $version,
+            '打包方式' => $components['mode'] === 'full' ? '完整打包' : '按需打包',
+            '可选组件' => $components['components'] === [] ? '仅核心能力' : implode(', ', $components['components']),
+            '保留源码 CLI 工具' => $components['keep_cli_tools'] ? '是（高级配置）' : '否，保留运行依赖',
+            '选择保存' => 'config/build.php',
             '额外排除路径' => $exclude !== '' ? $exclude : '无',
             '源码加密' => $encrypt ? '是' : '否',
             '包内静态资源加密' => $staticEncryption === null ? '否' : implode(', ', $staticEncryption['selected']),
@@ -117,8 +123,56 @@ final class Interactive
             return;
         }
 
+        try {
+            BuildComponents::save(self::rootPath(), $components);
+            self::line('打包选择已保存：config/build.php');
+        } catch (\InvalidArgumentException|RuntimeException $error) {
+            self::warning('无法自动保存选择，原配置保留：' . $error->getMessage());
+            if (!self::confirm('仅本次使用选择的组件继续构建（不保存）', false)) { return; }
+        }
         $result = BuildBinary::execute(self::rootPath(), $options, self::outputCallback());
         self::success('构建完成：' . $result['path']);
+    }
+
+    /** Reuse saved choices; core capabilities stay available and shared libraries are resolved by the builder. */
+    private static function buildComponentSelection(): array
+    {
+        $saved = BuildComponents::load(self::rootPath());
+        $mode = self::select('打包方式', [
+            '1' => ['full', '完整打包（默认，保留全部可选组件）'],
+            '2' => ['custom', '按需打包（选择需要保留的组件）'],
+        ], $saved['mode'] === 'custom' ? '2' : '1');
+        if ($mode === 'full') { return BuildComponents::normalize(['mode' => 'full', 'keep_cli_tools' => $saved['keep_cli_tools']]); }
+        $catalog = BuildComponents::catalog();
+        $names = array_keys($catalog);
+        $defaults = [];
+        self::line('核心请求、响应、路由、SDB、验证器、自动表单、缓存、JWT、Curl 和原生视图始终保留。');
+        foreach ($names as $index => $name) {
+            $selected = in_array($name, $saved['components'], true);
+            if ($selected) { $defaults[] = (string) ($index + 1); }
+            self::option((string) ($index + 1), ($selected ? '[x] ' : '[ ] ') . $catalog[$name]);
+        }
+        while (true) {
+            $answer = strtolower(self::ask('保留组件编号，逗号分隔；all 全选，none 仅核心', $defaults === [] ? 'none' : implode(',', $defaults)));
+            if ($answer === 'all') { $selected = $names; break; }
+            if ($answer === 'none') { $selected = []; break; }
+            $selected = [];
+            $valid = true;
+            foreach (explode(',', $answer) as $number) {
+                $number = trim($number);
+                if (!ctype_digit($number) || !isset($names[(int) $number - 1])) { $valid = false; break; }
+                $selected[] = $names[(int) $number - 1];
+            }
+            if ($valid && $selected !== []) { break; }
+            self::warning('请输入有效组件编号，或 all / none。');
+        }
+        $profile = BuildComponents::normalize(['mode' => 'custom', 'components' => $selected, 'keep_cli_tools' => $saved['keep_cli_tools']]);
+        $plan = BuildComponents::plan(self::rootPath(), $profile);
+        foreach ($plan['shared_libraries'] as $library => $owners) {
+            self::line('共享依赖：' . $library . ' ← ' . implode(', ', $owners));
+        }
+        self::warning('不会自动分析业务是否调用这些组件；被移除的能力需要重新构建后才能启用。');
+        return $profile;
     }
 
     /** Collect independent build-only static encryption choices; source files/configuration remain untouched. */
