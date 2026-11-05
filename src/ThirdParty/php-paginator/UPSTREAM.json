@@ -1,0 +1,12 @@
+{
+  "name": "jasongrimes/paginator",
+  "version": "1.0.3",
+  "source": "https://github.com/jasongrimes/php-paginator",
+  "reference": "3411e3cd0c6479a0b514f26e4358f0273552f221",
+  "license": "MIT",
+  "files": {
+    "src/JasonGrimes/Paginator.php": "ee6a277fc19a33114ab63b2f57b0867f864040bd7c36d939f50229ee8ce137c1",
+    "LICENSE": "0aa1b8c94198ab465783de561d94c9a5b26064d87cd51c389fc32e7148a82a32"
+  },
+  "integration": "RC inherits the unmodified stable page-window algorithm; validation, safe HTML and RC simple/data/JSON contracts remain in RC\\Helper\\Paginator."
+}

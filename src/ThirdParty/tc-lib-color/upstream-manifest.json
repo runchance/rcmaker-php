@@ -1,0 +1,29 @@
+{
+    "package": "tecnickcom/tc-lib-color",
+    "version": "3.0.14",
+    "reference": "99057a58e02c11bf1a826d09833059187edea4a5",
+    "source": "https://api.github.com/repos/tecnickcom/tc-lib-color/zipball/99057a58e02c11bf1a826d09833059187edea4a5",
+    "files": {
+        "LICENSE": "0c51904f8d5babb903e68d08935161382c3fc247008fa9869a36d4cf9ee6a25f",
+        "composer.json": "1c3ffc3adec9254b95b0aabe848e72ecb5c35d972d6aef5be311b51d8431d874",
+        "src/ColorModelType.php": "8c8dc5bc8b2d8440153ea4ffafcc3538b7c15c8c98747c1c71dd46145d2fec11",
+        "src/ColorParserInterface.php": "03b9240d07f0c5425f7234453bcf525cf03d345b8040a597cd734360a933a971",
+        "src/ComponentNormalizer.php": "f296cb6d0a0cb6d0d1b2e7a9c9cfd580b1c7ed4db9d35e083f21f5af8384606a",
+        "src/Css.php": "8b0bf64b43fb3baaf37b87fb4bbac3b0224a31af3eed4fba25676277e071c5d9",
+        "src/Exception.php": "351e68cde51bcafc1d2492b16f7eae17f8b7340dcbad8c9280379ce6124066e8",
+        "src/ExceptionInterface.php": "dc8a001693822c2bc2d40b497d595fee094f926a3a2fe92343e9def83c817a59",
+        "src/Model.php": "2e25cddb3667e1e9c50ce649f55e9b3effca2a19eea765859c058812e440493b",
+        "src/Model/Cmyk.php": "3ea1a60c0c4362c18142fde5d07c4a127c6cd26f7c1684a4850f763f884f068c",
+        "src/Model/Gray.php": "b22b6d6221c1674473fdc300a317a9633f1ead146f21742dcccf7413d88bcaaf",
+        "src/Model/Hsl.php": "9534f0a1cfa55ed81dc9a5929c8359f315a630d450f418c9f05ed3d2dcf0fbcb",
+        "src/Model/Lab.php": "5ba64f8f1d53c5c8876c7c546cfde718a4ad688e2954ba92a7aa9ed09af0e345",
+        "src/Model/Rgb.php": "d75d481d03ff3a4de6c52c5a276467ad88578c26b08e9065d1de7d9351ecedf7",
+        "src/Model/Template.php": "8103a1c21ba9a7460b168d0a69453aaeb8dbbbe7a3c0b18461550915b6c3b5b3",
+        "src/Pdf.php": "7d418e5a1556f756c3cc20b2fc1a1abd78582176bb63be02ead19d15a7f69195",
+        "src/PdfColorWriterInterface.php": "c884d2e9968875a3a3fc1da274ea1247e5f847644cdb90997134e7468cff083f",
+        "src/Spot.php": "1738a78a0d28f7234bfb0d95e7998efddd81ef8e67fee08006071b008bcb16e3",
+        "src/SpotRegistryInterface.php": "da591114a588af403a28f91a1a4a8389e5d69ccf3ebf3542989cd5a9b9653104",
+        "src/UnknownComponentException.php": "1f4ecf5acc58db34b8c60e41040e83644ffa9e89a7960c39d788b5d366ad5167",
+        "src/Web.php": "9c41f9d4a20ab342b8f7c2ded59db47f1fff9e517edc22b06980f60e66d2cded"
+    }
+}

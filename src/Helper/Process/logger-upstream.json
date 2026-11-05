@@ -1,0 +1,21 @@
+{
+  "component": "RC access-log process and native asynchronous transport adapter",
+  "package": "workerman/workerman",
+  "version": "v5.2.3",
+  "reference": "8fd5c148ff7dcd7bbc88621e1712eeb1f66b7f56",
+  "source": "https://github.com/walkor/workerman/tree/v5.2.3/src",
+  "license": "MIT",
+  "selection": "RC-owned Logger/AccessLog/AccessLogClient; AccessLogProtocol inherits pristine native Text encoding and decoding and bounds only individual input frames. Native Worker/TCP/AsyncTcpConnection/Timer/Select sources are unchanged.",
+  "reason": "Bound diagnostic queues and connection lifetimes, escape fields and safe filenames, isolate disk/network failures, and avoid automatic replay of uncertain writes.",
+  "upstream_sha256": {
+    "src/Protocols/Text.php": "40ec256da69f47de28fb44ed907c26d4e718995a634416476f5a4a5729c3af00",
+    "src/Connection/TcpConnection.php": "b06cc650b3ab057492a291071869d8a292c123c1a714e63c6ee50078034dd703",
+    "src/Connection/AsyncTcpConnection.php": "9533409025d5e2709316d8d20b9917eb399dc4eb0837b49016d2131ac2f20503",
+    "src/Connection/ConnectionInterface.php": "731f3a6c721517cb48408516e3311ab690a34bbab83efdfeaaad4bbe7985c8c9",
+    "src/Timer.php": "adc79533d3f1c6dcca02d227153611d5d680a155a18c049cf876d489e9ec8df7",
+    "src/Worker.php": "2216ce53450eacad1c91ceb3afa72f63742612d1c47aa4333001bdf5e542bf87",
+    "src/Events/Select.php": "bb6f8666ced72d9174759d6b8c09129a55419c3df3bf3dea389019001ae8ca8e"
+  },
+  "semantics": "Best effort, not a durable or authenticated audit protocol. Queue/ok acknowledgements do not confirm persistent disk delivery. Private runtime storage and local numeric-IP endpoints are recommended; native hostname resolution may block.",
+  "scope": "Workerman mainline; legacy sequential Swoole table draining is retained without new Swoole acceptance. Micro/encrypted startup, wider event-loop/TLS combinations and sustained resources remain separate gates."
+}

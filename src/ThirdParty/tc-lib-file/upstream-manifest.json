@@ -1,0 +1,15 @@
+{
+    "package": "tecnickcom/tc-lib-file",
+    "version": "3.9.10",
+    "reference": "a26615b711c7fa76672a0391bc9af863e5558ee5",
+    "source": "https://api.github.com/repos/tecnickcom/tc-lib-file/zipball/a26615b711c7fa76672a0391bc9af863e5558ee5",
+    "files": {
+        "LICENSE": "194714f8536f711c11d64e9c1885615206f7fc813e11951d64726e95bfb7a9c8",
+        "composer.json": "0110e2f8bd9ff1bd4cc78e7942f2d59907a920931086003e18947d2fbf4af7e1",
+        "src/Byte.php": "e64dcc7bc7b4c0391af64f6cd53f437d2d1da6059fe7ff3bf82a1e85d36d6163",
+        "src/Cache.php": "06622d06af581075233899a07fa4825463a3a8c6b20c30710933c918ec76d80f",
+        "src/Dir.php": "1afaa7ab7ea28e6ace2df173f6fa049bdb242d549c28e403d8f2037a3a7fdbea",
+        "src/Exception.php": "c804a3378ee9a41a26d67c5cf5146a9fd16a8d1651db33c83b448644c33f204d",
+        "src/File.php": "9d9497272ce63a392fb5137a00877df66b554238b3823f7f09dd5045023931e1"
+    }
+}

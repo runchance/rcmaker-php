@@ -1,0 +1,17 @@
+{
+  "component": "RC atomic token-bucket limiter",
+  "package": "codeigniter4/framework",
+  "version": "v4.7.5",
+  "reference": "a1f129d56df3278702a8d1048af955d0ebf68c03",
+  "source": "https://github.com/codeigniter4/framework/tree/a1f129d56df3278702a8d1048af955d0ebf68c03/system/Throttle",
+  "license": "MIT",
+  "license_file": "LICENSE-CodeIgniter.txt",
+  "pristine": false,
+  "selection": "Historical RC class corresponds to CodeIgniter token-bucket code; the original imported release is unknown. Stable 4.7.5 is the comparison reference, not a claim about that original import. No CodeIgniter runtime is bundled.",
+  "reason": "Native CacheInterface/save/Time contracts do not match RC stores, and its two-key get/save algorithm does not provide atomic concurrent grants. RC retains its public class while using one versioned record, confirmed TTL-refresh CAS and exact integer accounting.",
+  "upstream_sha256": {
+    "system/Throttle/Throttler.php": "c379b39aa913ebcfc1f54c223e773ba70a4dea2d0e288b4aa17efb0b5472a4d6",
+    "LICENSE": "2e56fe45695ea24d5e3dda4c9d358d3fe01bdef037923d69555b9bbbadee3995"
+  },
+  "scope": "Cache-backed limiter, not durable quotas across cache eviction/clear or APP request coroutine support. Cache storage failures and contention exhaustion fail closed. Source/provenance does not substitute for behavior and live-backend tests."
+}

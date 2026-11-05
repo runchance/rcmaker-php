@@ -1,0 +1,33 @@
+{
+    "package": "tecnickcom/tc-lib-unicode",
+    "version": "3.2.3",
+    "reference": "1b400c9aeee482a153b9ec0c8b5d86c166cc92ba",
+    "source": "https://api.github.com/repos/tecnickcom/tc-lib-unicode/zipball/1b400c9aeee482a153b9ec0c8b5d86c166cc92ba",
+    "files": {
+        "LICENSE": "4d639d59707355a1b13ea6fa81335df4870e15392f4563396dfe496ac7b23dcf",
+        "composer.json": "2d8f04f37cba7210627e37482b56be06b8d823ccc25bedbe04624a561c15ad34",
+        "src/Bidi.php": "8d69bb029b2017f849e5d95c3c31cfa4b2ba3987815a97c13ae30353ed3ebac9",
+        "src/Bidi/Shaping.php": "2433102261ddb2df77d3252c203fa51839378dbee30e9c9f6769f02d6fe2af30",
+        "src/Bidi/Shaping/Arabic.php": "8916557cc021e8596d3ff405b1f1f061b43180b0c41be5b06c7a98b0a3a1529d",
+        "src/Bidi/StepBase.php": "70e2af7e4e2b4303090b0bf2ec8a5eb7e07102347d1fafe5ff142f47f4839d94",
+        "src/Bidi/StepI.php": "ed90b28063e10d0ec4d15e5af6d2d0c9245cc61d069bee755b33549cf81d3e34",
+        "src/Bidi/StepL.php": "e00c52fa29a8882fd9055152a854a03b73cac59322f649a5d4a66dc58f49fc7f",
+        "src/Bidi/StepN.php": "3efac82ef4097bb04466ba2ae8421fe2448e70726e7563592e7fefcd66a6df7e",
+        "src/Bidi/StepP.php": "9407b3d4f41cf4262ed28b8a2d99ec3f5d2f9f3d16ef81ba03524358d6610ccc",
+        "src/Bidi/StepW.php": "ca52db9001c3877c139dbc62b510dab9d80a9977b5f7807279a43bfaedfa0622",
+        "src/Bidi/StepX.php": "97bc079df18232af585dfeb9b23a7c6dd7717eaf0f02b5af41b699cf7b3d5675",
+        "src/Bidi/StepXten.php": "5c53c3ed7161657ffeb38b63e257fae75c9ff3c5e17c738f5b6fa15a8337e238",
+        "src/Convert.php": "3c613827338d883fb1c687f3354646be219491dcc9e54c0c0394ab1b36ae4303",
+        "src/Convert/Encoding.php": "2526eba77227b852c2244bb2be52eb16c0573e99cdc66c57520ccde8837552fc",
+        "src/Data/Devanagari.php": "f7d4ecaf550222c1e8c997fd7b382b34b14bb7bf379fd04f3c7a235295fe4d51",
+        "src/Data/Hangul.php": "5437f288234786cf4f52e223c8f73aef51c455547e330ed1bd236e069f57d7a5",
+        "src/Data/ScriptRanges.php": "3045b2027ec068224ba733c6e26160b96e670b5535cddda2abc0afa224b15234",
+        "src/Data/Thai.php": "4cf32bfbb44d5a6d7832ca14c405439419ac9ad23f6e6fde458d92c3f95db842",
+        "src/Exception.php": "e4e3896643a1b05344bc91f6e3ba263ef31e8e37fbb344d4107494d7841a72d9",
+        "src/Substitution.php": "cb1f959da6c216a5a0a78c54ee7284150464ff3b69fc414196dd40d4eea661be",
+        "src/Substitution/Devanagari.php": "2390a08c08024c174fd9fbe24ab7bf6e8e3ff90d569d81341922de1706dc8146",
+        "src/Substitution/Hangul.php": "bfd612fe5d0fb087b80cc2da9de00ee5e1bfa80857fa3eade84e92c36acf03cf",
+        "src/Substitution/Thai.php": "1a67da3dda1baf37e97bc1bcb0b76cd21dfe0fa2436d849e045d95697333091e",
+        "src/TextDirection.php": "bb034c9f9b5492a775c851bac44403143ab01f8698bc9aa068714d555615fdac"
+    }
+}

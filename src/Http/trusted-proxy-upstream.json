@@ -1,0 +1,15 @@
+{
+  "component": "HTTP proxy and multipart parameter utilities",
+  "package": "symfony/http-foundation",
+  "version": "v8.1.10",
+  "reference": "79325f87c3a2acc7564ddce9f457046e980e7255",
+  "source": "https://github.com/symfony/http-foundation/tree/v8.1.10",
+  "license": "MIT",
+  "pristine": true,
+  "selection": "Unchanged IpUtils.php, HeaderUtils.php and LICENSE. RC owns explicit bounded proxy policy and multipart temporary-file lifetime; HeaderUtils supplies quoted header-parameter tokenization. No global Symfony Request proxy state is changed.",
+  "upstream_sha256": {
+    "IpUtils.php": "ad97192d425d45204456f8f9702a5d799179de52a3e2703a41e4b5d6ed52be42",
+    "HeaderUtils.php": "7bce7b1f51acafae82f051ba95af3bebedfa7d185b3ea050f66f3f656b104983",
+    "LICENSE": "18da7e490d2aa77197a0619b25bcc771a0110132a9d76071665718d3295e73cb"
+  }
+}

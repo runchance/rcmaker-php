@@ -1,0 +1,12 @@
+{
+  "package": "psr/container",
+  "version": "2.0.2",
+  "commit": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+  "source": "https://repo.packagist.org/p2/psr/container.json",
+  "files": {
+    "LICENSE": "0688ee39285c33067ad77d82349cdacb5569756bea4398b34bb223af9e57f1c0",
+    "src/ContainerExceptionInterface.php": "ad5fc7651b5924e68578c60447314a044ee7bd1d69f1d3209b20010d411c0c5e",
+    "src/ContainerInterface.php": "8c8f8d1a3dececb5f09514a35f7ad01afa5674faa2d08834bcbe5921a9f2e35b",
+    "src/NotFoundExceptionInterface.php": "05937efdba3dcd06a130330d46dafe6f7675a2ae4facde87cf4bfe15f3509f43"
+  }
+}

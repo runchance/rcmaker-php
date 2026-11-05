@@ -1,0 +1,13 @@
+{
+  "package": "avadim/fast-excel-helper",
+  "version": "1.4.0",
+  "commit": "2076dcb484bebe18ecd512dc376ff78df7e78f65",
+  "source": "https://repo.packagist.org/p2/avadim/fast-excel-helper.json",
+  "files": {
+    "src/autoload.php": "8d7314708d010a3830b75e91514f89d171e5199e998590a86b6537192d89ceaf",
+    "src/FastExcelHelper/Helper.php": "dce3584e09b790f59bd3758f941a3bb777029da508770fefa33de4c8fc64ec87",
+    "composer.json": "3f453512a0171fbca72bc666767da38fdb3eb058f81204fdf5fc81f44f1b7abd",
+    "README.md": "6f91478d0938abeddac46dd1288a517dbd8fdf6b72943748c7a67affd45cea29"
+  },
+  "license_note": "Upstream release declares MIT in composer.json but contains no standalone LICENSE file. Original composer.json and README.md are retained."
+}

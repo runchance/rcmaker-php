@@ -1,0 +1,24 @@
+{
+  "package": "zxf/captcha",
+  "version": "1.1.0",
+  "reference": "9bf8be54e69db9f055c8e3520d46f0d790bc6a5b",
+  "source": "https://github.com/zhaoxianfang/captcha",
+  "license": "MIT",
+  "scope": "Pristine slider engine, original image resources and metadata only; native Session integrations, global helpers, click font and frontend are not bundled. RC supplies request state and its own widget.",
+  "files": {
+    "composer.json": "3748ebd2606f6c7dd7f29cceda65f73dc918fd57dc7b804d2d64dfd164ec26d0",
+    "LICENSE": "612393f345ce7c2caf89870a360fa4f596ad5837baa1670325e22933a43834ef",
+    "readme.md": "f01753aa0ee4446f78d1b59a0b2ef203833f098098fe52ac758bd8d609bcaaee",
+    "resources/assets/images/icon.png": "eb25138e69eabb97cc3c683311ebe0dd4833263ac4ce40d1f64d71109c383ccc",
+    "resources/assets/images/mark_01.png": "debe596ab4532cff713db2af2f7ce9a77c1410f7e037e2c01ab140a2133b822c",
+    "resources/assets/images/mark_02.png": "205cbf4cd616c7c528fef5733ffa259740d7acafb3218b25f090fdfce8ef1b22",
+    "resources/assets/images/mark.png": "df419bf8cc44331ba33d24d3964540f03e69ec681c3cbabe34c81e12793f789a",
+    "resources/assets/images/mark2.png": "a34443156ba67403c8dfb8c37747610c758edc5fa052ce8ffd26d2c6165b3a0f",
+    "resources/assets/images/bg/1.jpg": "58fc6341fdf911393ba8819a734578bccbc04b406dcce66872d4af650390de1a",
+    "resources/assets/images/bg/2.jpg": "c730d631519a3e52f2c02cd44e8956e4f53d8c207b0f83796b2f85e039f48293",
+    "resources/assets/images/bg/3.jpg": "2ae7072cf28300e6bb4805bbf1d2a342da8ff787e22ce406429af8d39b292788",
+    "resources/assets/images/bg/4.jpg": "18497e6215e4c4b55db8b893cf712c964b6445d7733a4201297947b2045641f9",
+    "resources/assets/images/bg/5.jpg": "46b8ba1825c264ee3133ef2cdfa50446ed623c386e1dd419202487127567eff6",
+    "src/Captcha.php": "d3120493acd58db5de00f5ff0477d47f1e201b1a60e235f2392d4eae2acddd6d"
+  }
+}

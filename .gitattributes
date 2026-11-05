@@ -1,0 +1,8 @@
+/data export-ignore
+/official export-ignore
+/agent export-ignore
+/src/ThirdParty/** -text
+/src/Helper/Captcha/Font/** -text
+/src/Helper/Throttler/LICENSE-CodeIgniter.txt -text
+/src/Http/Workerman/MIT-LICENSE.txt -text
+/src/Http/LICENSE-ThinkPHP.txt -text

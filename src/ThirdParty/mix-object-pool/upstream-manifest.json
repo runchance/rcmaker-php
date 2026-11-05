@@ -1,0 +1,18 @@
+{
+  "name": "mix/object-pool",
+  "version": "3.0.27",
+  "reference": "6eadac033504eac60d303569038a8cc5fc7fd6b2",
+  "source": "https://github.com/mix-php/object-pool/tree/6eadac033504eac60d303569038a8cc5fc7fd6b2",
+  "license": "Apache-2.0",
+  "license_text_source": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+  "license_note": "Release archives declare Apache-2.0 in composer.json and README but contain no license file; an unmodified official license text is supplied separately.",
+  "files": {
+    "composer.json": "204abede4334df0e7019a4576bf56be6813e23a2d7b478024aa51aa2084531da",
+    "LICENSE-APACHE-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "README.md": "5a4aa9d01c91af127c4cb5d52d01304c8bb15a3a0d6b4572f7bbdb773ea59867",
+    "src/AbstractObjectPool.php": "c42f68e12c070d14e5a76c8e1470ee3d13c7dbb40fd5f5d6b8953a5502713ad6",
+    "src/DialerInterface.php": "c32df7cfc4a4b14106518c6f95eff9fafc7cfba8c4b016dbf039456f38968f9e",
+    "src/Exception/WaitTimeoutException.php": "dd6e0d100997a85ba0a43d1be873bdaee34c16f6b53195cae30dc90cceb7fb21",
+    "src/ObjectTrait.php": "79fae947e3ffbf048958a4b9ae9cefc62d26254b0c141eba6aafe3db99611dce"
+  }
+}

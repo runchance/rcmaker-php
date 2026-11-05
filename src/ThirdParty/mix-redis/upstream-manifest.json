@@ -1,0 +1,26 @@
+{
+  "name": "mix/redis",
+  "version": "3.0.11",
+  "reference": "8bb7a799577c1e6d28dee628ae7f60277c4d8359",
+  "source": "https://github.com/mix-php/redis/tree/8bb7a799577c1e6d28dee628ae7f60277c4d8359",
+  "license": "Apache-2.0",
+  "license_text_source": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+  "license_note": "Release archives declare Apache-2.0 in composer.json and README but contain no license file; an unmodified official license text is supplied separately.",
+  "files": {
+    "composer.json": "00583349e0c030d4b728c1ca4b9c502f9c9fd473d02741a18e6f053a1105cb52",
+    "LICENSE-APACHE-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "README.md": "0050a51276bc16e0109cec805a53c72ddb8ed20d2d3cbf65c332dfcb0d3a9c41",
+    "src/AbstractConnection.php": "e6f95a0ddece2335164332f9090a08a676db8596ce0038b5d823cde2af041dce",
+    "src/Connection.php": "f017940155fb2d34f983318c54c6ec32a0b2f52824d80033f744f494fdfdaaa3",
+    "src/ConnectionInterface.php": "e58b467081b619ab990fde7c374c80e106d033968f35334f0b437c1572b97f7b",
+    "src/Driver.php": "6231e001dd331e81b0e99efd9a9961ad5472d90495f58122e30b6f9815d62da4",
+    "src/EmptyDriver.php": "c9e80a8784fbed79d0a69ca9cb298b6b08e255c2d02e9638e9b8fa5fbb7f0b41",
+    "src/LoggerInterface.php": "2a6356bbddeb9abdd6026a97c43c0fe2c38bd7228ea6656a831bd3e05fa9915d",
+    "src/Multi.php": "da775dcd8548797e0923918d4422ace8c4aaf70ac29b747e5518b4dd4df8a4eb",
+    "src/Pipeline.php": "b47e5db4c173a6ceb94e776137f14795e0b7789bd5f16fb57166e85b8fe04a1e",
+    "src/Pool/ConnectionPool.php": "68cba04339e323be9b89d869b7fd36c4585e074ecf2fa072d764fc37ec8fa947",
+    "src/Pool/Dialer.php": "53e3b7b04a844e6e765410f0456f5d2ea79469910fb23ef5da593df216fb3f3d",
+    "src/Redis.php": "96878e71077717d2393918bb7d7a86cce6097b4c92f36de1b6b22c3418c83cff",
+    "src/ScanTrait.php": "4eddae4f5edf401154c27ae9bf62079119f1434965dd2fd27be6580f8ddece45"
+  }
+}

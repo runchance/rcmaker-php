@@ -1,0 +1,12 @@
+{
+  "package": "psr/simple-cache",
+  "version": "3.0.0",
+  "commit": "764e0b3939f5ca87cb904f570ef9be2d78a07865",
+  "source": "https://repo.packagist.org/p2/psr/simple-cache.json",
+  "files": {
+    "LICENSE.md": "9d7269855b25e36b54461c029260a56c97499a647117ea37f4c5cdfc956a7f8b",
+    "src/CacheException.php": "9b92f4ad92711668a09e4c475f024b23d0d0b8a687908eb59996c61a5ee24e28",
+    "src/CacheInterface.php": "3210f4d4838fe90b204bdffe60aafe7789dc8684b43d2b0c93ea348ad8af94d5",
+    "src/InvalidArgumentException.php": "5f45f9c49e02676e2fb03f60386fb292bbf03062890b4bf40c948e90187fcad9"
+  }
+}

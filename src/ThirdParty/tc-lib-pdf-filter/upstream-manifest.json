@@ -1,0 +1,25 @@
+{
+    "package": "tecnickcom/tc-lib-pdf-filter",
+    "version": "2.11.9",
+    "reference": "7759b1a803d2423e9f3bb8d3fa32b5f14c183b9d",
+    "source": "https://api.github.com/repos/tecnickcom/tc-lib-pdf-filter/zipball/7759b1a803d2423e9f3bb8d3fa32b5f14c183b9d",
+    "files": {
+        "LICENSE": "0bb3083ac9b94a3d956b1cda7801ae48dccf3cd7d8dad1e61535b5ee8886f348",
+        "composer.json": "e413a9d5745fb611bfcd6ffdef76a8a5eae9e871b342feee4a5fec08a9c99fb1",
+        "src/Exception.php": "b5054c512dd4e6300b070c709cac09441e0339133bf3dba65cf4ad986bbe0deb",
+        "src/Filter.php": "f83cc060045e120228364efd305a1c67a51fdcb997040e78958746f67f2fc134",
+        "src/FilterType.php": "358bcda10e1476aac4a2193f1037331b6254a0e50c4e8634dc1eb45205c0ebc9",
+        "src/Predictor.php": "81aa81f3893d52b23a164f5b43564e036cbb3f3ca3334f3af59cb3923ee75523",
+        "src/Type/AsciiEightFive.php": "20da206fb0d2fbc5794b2ab19c219d930917d92eb858e89fb74affb2d88e8108",
+        "src/Type/AsciiHex.php": "5a2746127f03c3f349e4fcffece845c02c92a366071f72b910338bd8292d97c7",
+        "src/Type/CcittFax.php": "ab7ccf03561fc3485c97203ad2fa671f38acd329db207b1d3fb849d5a06141dc",
+        "src/Type/Crypt.php": "f226f4abd80e4b1a578f13c5a0414be445b719b34d54e64b14d9e28e9e89847b",
+        "src/Type/Dct.php": "22de36b5ca5b4cf66dd4d5d5107d79c57d58773f88eaeb0209239f6389e5ceec",
+        "src/Type/Flate.php": "80c24a7516885c7f2e8863b302ced4bc49b0ff02515e7533507bdcc87ae46f96",
+        "src/Type/JbigTwo.php": "707022a37abd7cc15018ac4b372ec463d3a56c28f53b80428ea3e442bf619632",
+        "src/Type/Jpx.php": "773fe2ca4f1292bda6db99574783dbf0288b8add2067bf595b715448bb28f0b1",
+        "src/Type/Lzw.php": "dfa81c62196a191dd95e20e48984f8ae42fa164dd3e3bbee49e623acc6db9d64",
+        "src/Type/RunLength.php": "7c0b2a0b7c6e0c733cead0a35b80c0317b9bd949baacb6dca4b9f2f5223a3e2f",
+        "src/Type/Template.php": "dbb434701b3ea2a3df3d739b8b529677a67db19ae99914414a862f812fc781e8"
+    }
+}

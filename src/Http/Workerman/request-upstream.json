@@ -1,0 +1,15 @@
+{
+  "component": "RC HTTP request adapter",
+  "package": "workerman/workerman",
+  "version": "v5.2.3",
+  "reference": "8fd5c148ff7dcd7bbc88621e1712eeb1f66b7f56",
+  "source": "https://github.com/walkor/workerman/tree/v5.2.3/src/Protocols/Http",
+  "license": "MIT",
+  "pristine": false,
+  "selection": "RC adapter overrides upload/cache parsing, slash-prefixed targets and request-owned sessions. Multipart follows the native section/index strategy with Symfony HeaderUtils parameters, clone-boundary invalidation and owned-file cleanup. Original Workerman protocol/request/session sources stay Composer-managed and unchanged.",
+  "reason": "Keep upstream packet framing; preserve // paths and decoder isolation, prevent stale cached upload paths and orphan temporary files, retain valid quoted multipart parameters and upload error metadata, and commit RC session state before response output without destructor replay.",
+  "upstream_sha256": {
+    "src/Protocols/Http/Request.php": "9d0dc49940aa855e0572701435fd671b593767d7bff523eab44685da3af9a9f4",
+    "MIT-LICENSE.txt": "0a77f54280481fe115d620c0e00a0962a61432652c4e832ef5963fa91ede646d"
+  }
+}

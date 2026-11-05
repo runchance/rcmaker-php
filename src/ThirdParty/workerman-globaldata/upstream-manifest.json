@@ -1,0 +1,15 @@
+{
+  "name": "workerman/globaldata",
+  "version": "1.0.6",
+  "reference": "9f5082ad712d98c0deedfbfe244661dce151926f",
+  "source": "https://github.com/walkor/GlobalData/tree/9f5082ad712d98c0deedfbfe244661dce151926f",
+  "archive_sha256": "ddb841e4c6baea027d499cfe9ccad4fe2b057c931ced46cff0449afebee7933e",
+  "license": "MIT",
+  "license_note": "The original release declares MIT in composer.json but supplies no license file or copyright notice. No fabricated copyright or license grant has been added. Original source, composer metadata and README are preserved; upstream test/ is not bundled at runtime.",
+  "files": {
+    "composer.json": "a6eedf9b147b3699fe5862c84c3b410e3223722c5e56fcaf1c37c02709ebc256",
+    "README.md": "68fe47adb8bf0085fe453a44e35cf92fe303d3291671bbd83e1b6392a6d71798",
+    "src/Client.php": "09ec08537ac22b78c387298efcea167ea542297a6d1239e6fd4962e4ae0cdcc6",
+    "src/Server.php": "5a9aa87c308acec291970e6d397caea16167d4768a1f7420c2e804d5b4df744e"
+  }
+}

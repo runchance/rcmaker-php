@@ -1,0 +1,22 @@
+{
+  "package": "topthink/think-cache",
+  "version": "3.0.1",
+  "commit": "4f8becaf802e2ebcd0e37df46495fe3999e917ca",
+  "source": "https://repo.packagist.org/p2/topthink/think-cache.json",
+  "files": {
+    "LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "src/cache/Driver.php": "366194a460e0f7c89a5c2449d3040655377f88a0a4844184fec1984d37c91824",
+    "src/cache/driver/File.php": "98deb68a8b88ddec413c7cff0521553e1410d4b5b8ad7becbc1723b181952704",
+    "src/cache/driver/Memcache.php": "e3d013d497c939c52ab72a698bab5c7d697b5d99f00993de27f9d50ef5d076f0",
+    "src/cache/driver/Memcached.php": "41750202222ab7c0890f892bf9ac30d45f21fdfe5503734223f24af3615ef0b0",
+    "src/cache/driver/Redis.php": "5da6b62d6e1200a3476f20c293a960f865ed16630026e4f4a19e520ce46e2c6d",
+    "src/cache/driver/Wincache.php": "80c54299a61fc3a9a46fcbc53e397e9c4f7a7a21829ea32f4d29fc986be538b8",
+    "src/cache/TagSet.php": "d173cb7070bc22f8994c3712e7cd75e8b88a07a165929d16ee8895261b8a6712",
+    "src/CacheManager.php": "c8353a17889139a4dfefba4110911a856cb124a2a6a6667dfa9d49539ca8e86c",
+    "src/contract/CacheHandlerInterface.php": "3b22deae64091157ee15dc6ba538c29e598dea79a86371c63c3cc1334c6e0123",
+    "src/exception/InvalidArgumentException.php": "0b45f5ebc6db9870744f4ac7c09b5bb08c31acc9033e61288d1e5de33943bce4",
+    "src/exception/InvalidCacheException.php": "63eb63a7cbc12c06470d09cdba741323b31b2fcc06c43f01f93b88155364975f",
+    "src/facade/Cache.php": "fa9d19908afcbebcb237fcd8aa0df87012e3c761307c13ab4aec9863d2f961dc",
+    "src/helper.php": "b2220ee7abdbe7c1524afb19a40182481f2227c55a2a61ad8ce4555f2277f691"
+  }
+}

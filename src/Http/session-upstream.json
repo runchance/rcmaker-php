@@ -1,0 +1,21 @@
+{
+  "component": "RC session lifecycle and storage adapters",
+  "package": "workerman/workerman",
+  "version": "v5.2.3",
+  "reference": "8fd5c148ff7dcd7bbc88621e1712eeb1f66b7f56",
+  "source": "https://github.com/walkor/workerman/tree/v5.2.3/src/Protocols/Http",
+  "license": "MIT",
+  "license_file": "Workerman/MIT-LICENSE.txt",
+  "pristine": false,
+  "selection": "RC Session inherits original CRUD while isolating policy, captured storage, bounded scalar/array decoding and failed-save state. RC FileSessionHandler implements the unchanged native storage interface with instance paths, atomic replacement and bounded stripe locks. Redis adapters reuse the pristine native interface and RC connector. Cookie formatting reuses pristine native Response.",
+  "reason": "Avoid global backend/policy drift, silent storage failures, destructor replay, unsafe or corrupt values, mixed native PHP engines and premature identity cookies. Preserve original upstream files and public framework business CRUD; do not enable application coroutines.",
+  "upstream_sha256": {
+    "Session.php": "947417ebea2c0ca3fb2c6019927f8a9279518611728196261a6bc7b61e587951",
+    "Response.php": "e48ed60f811ac2f9b4f0467b08d1f706622643cffc79d560b9387157bf76c7f9",
+    "Session/RedisSessionHandler.php": "2d66817433d4e893c0776586d5b5d7fd986a62ee2279fe8ca45485ec72851f68",
+    "Session/FileSessionHandler.php": "837512eff78bdc189afa3d628a9978fdfe8c9ae3f6154ad8071e8d1626222686",
+    "Session/SessionHandlerInterface.php": "b0e06875bda873244411ec3bd72f0c6a55f36fa89b60edf0eed5161674063d49"
+  },
+  "runtime": "Sequential APP execution only. PHP Fiber, active Swoole coroutine and Swow-loaded runtimes reject borrowing; PHP Fiber rejection tested, no new Swoole/Swow integration acceptance.",
+  "scope": "Request-owned lifecycle checkpoint with real Workerman, PHP-FPM, file-process races, Redis and PHAR tests. Not full Response, reverse-proxy, Micro/encrypted binary, failover or sustained-resource acceptance."
+}

@@ -1,0 +1,17 @@
+{
+    "package": "tecnickcom/tc-lib-pdf-image",
+    "version": "3.15.3",
+    "reference": "c162371c7cb705f3cae0bd9e284ed023886e4180",
+    "source": "https://api.github.com/repos/tecnickcom/tc-lib-pdf-image/zipball/c162371c7cb705f3cae0bd9e284ed023886e4180",
+    "files": {
+        "LICENSE": "7af24f2d1de7cc2439b02c7bbe1b6ab35e236d02c33b46f3b2a2fc1261fe0644",
+        "composer.json": "2cf2fa901d5b103e5cb9a2e24babc7da204e6823a8bbd3ff578a1ee6304a9a59",
+        "src/Exception.php": "137fc0162f184e183fd9411712d1b73320e341c3dcf2b821ca9b1c53e9249648",
+        "src/ImageCacheInterface.php": "aea150fc6d926a0bcb806a50a94e5aabacc518b50131e948a2c1c93d03246cf2",
+        "src/Import.php": "e6166adaeba33cef1063e907dbd75a2bb0dfa2ff12ba77a772b544bb8fad9b96",
+        "src/Import/ImageImportInterface.php": "43f9deda2bf3469a5b8d48c303197f363c0563e781554b3155d5d1dbde105ab5",
+        "src/Import/Jpeg.php": "263be956cfe6b58e35bda52c39915dd6f1caba5212a4c6cf7267c8e0413a9725",
+        "src/Import/Png.php": "19753b2493dc28e9d45a25edf7a403ff1abdb0c135aabc6aa41a1530320ef352",
+        "src/Output.php": "587ee74d0370089b7ebb4223c85446c31418192c40921ed55ae8a9e0d850bc2b"
+    }
+}

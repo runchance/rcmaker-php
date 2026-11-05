@@ -1,0 +1,31 @@
+{
+    "package": "symfony/polyfill-mbstring",
+    "version": "1.43.3",
+    "reference": "122889ed24dc000165bcbfd77ec412f15cbdfc6a",
+    "archive_sha256": "560bc33ca56b79d9c285d9a2f14058ac489b6e6341df75c4e49cf87434c6e3ce",
+    "dist": {
+        "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/122889ed24dc000165bcbfd77ec412f15cbdfc6a",
+        "type": "zip",
+        "shasum": "",
+        "reference": "122889ed24dc000165bcbfd77ec412f15cbdfc6a"
+    },
+    "require": {
+        "php": ">=7.2",
+        "ext-iconv": "*"
+    },
+    "files": {
+        "LICENSE": "eaa5d6e59ff1d5322ae36d3ab9124460df72d2d0c8af60a99222e8a90dcbdf31",
+        "Mbstring.php": "c06399a1ab9fb7cf181c61c1868d531fa8ecaee2ac30b90ba17ee5b7aa03ae46",
+        "README.md": "7686ab9250b91f0b706d6a5aac4e6bbf4b8865ec323bbb420343f19e98d91d14",
+        "Resources/unidata/caseFolding.php": "99cea898c03847d05e1c143cf64183c57749b93f578f5bfcd856f89d700b9b85",
+        "Resources/unidata/eastAsianWidthRegexp.php": "31b076afc6524d15d2c490dd67c53dfbb9da3163203c157ce407116ba7a1a491",
+        "Resources/unidata/lowerCase.php": "df2b1879ae0f74d86996a4790de37b534c1b406002930550bc087885ae54f0ea",
+        "Resources/unidata/titleCase.php": "b5286ef519f98829f8bbce94b674975c1037dd9c8ba347ad2b1cd990a0975b68",
+        "Resources/unidata/titleCaseRegexp.php": "4eef657adbee39f7badd695b1d60b152b047385966a98b6d8d411554573ec596",
+        "Resources/unidata/upperCase.php": "4ae4778ee941291582b801bcddeaac401068e0e5dde7357ef06f9e882131b026",
+        "bootstrap.php": "0449da72338523c51270ddfe84447cd16fc110b7d4fae2bee1c2790d9f113fb0",
+        "bootstrap72.php": "8a45e926381803b688b3961032805f5ae317e953af1a980e0e0f63db5e3babfd",
+        "bootstrap80.php": "e998cba06760c8e191f47c70b7017164e7434ab93eaabbb8bdfe94943c450c6b",
+        "composer.json": "8ccd5687a056c76aa1c488e520302b441e31be3ef16482c2e35778b035fb1c09"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "package": "tecnickcom/tc-lib-pdf-font",
+    "version": "4.8.0",
+    "reference": "30804d3d493ddcf13dbb0a78c76c95b788c8948a",
+    "source": "https://api.github.com/repos/tecnickcom/tc-lib-pdf-font/zipball/30804d3d493ddcf13dbb0a78c76c95b788c8948a",
+    "files": {
+        "LICENSE": "48ab09381c5c0b3eba94c6e15efe51608634bdcdf5ee4cb107a7e5bd5d938100",
+        "composer.json": "15966c132144ae950e3272a522dd0934f4a3377d07bdbd584f40b3782db04faf",
+        "src/Buffer.php": "de177ab5c18982964c403011a801128b7ff2c2f5531291d685a17744ee3964cb",
+        "src/Core.php": "11a72a474c62e3f73fc5a25d6004c7868f2fba822fee85d431b760d2e2cff480",
+        "src/Definition.php": "59ec50ff0999640ce5ecdc6ee1c7aba24fb784f85e56ad123beee25dc2d6d79d",
+        "src/Exception.php": "a82981e0d86464c27de3004833f66973404525391e9245a438b57cb34d3bdccd",
+        "src/FileWriter.php": "182650383cb1cbd24daaa0a9fa4ee8571447bf86f7aa534916c0b23b7744258d",
+        "src/Font.php": "f3aa15ffd5973b2f8462b4e8c54bf70513af947378fbc7f5306942b9b9532ebb",
+        "src/FontPaths.php": "4f647a5b6c5369ff489337a904314301408ded39db374059ca76987fa71cee56",
+        "src/FontSubsetCacheInterface.php": "9c56c6dc9501d121a281eb1084272ed2cb64d961fd7a7320049ea5631e1e7317",
+        "src/FontType.php": "f0138f55c8719749352831a524a74a634f4bb942104e1d12f63ca408877e7523",
+        "src/Import.php": "7f5e5aeafcad306356fe623de183ada4f88bb6891be719547b80a1797042a371",
+        "src/Import/Core.php": "92870ded5ba40999f1c5d528bb687f8f5540f5a205161fe6f951759bef8122ab",
+        "src/Import/ProcessorInterface.php": "ef063765f8b52f5a0dcc9b6462b9a345ecf1a0f94d371ec86f759836915f1dd6",
+        "src/Import/TrueType.php": "851beb16e1541f0907420621213d09155f71b1625c39b11e8c1df133215904b1",
+        "src/Import/TypeOne.php": "a00f9ba486f09dce97af85a79f0e87cff6a73d55101fc42173655043d0c4108f",
+        "src/Load.php": "5721c33379239aaccad700b41cc346b20ff7342619d00645094eff1064960d13",
+        "src/OutFont.php": "c20c897a6015508fc1d8685a09a23d53b639e7a6ab402fad170e75cdf0d88789",
+        "src/OutUtil.php": "377e6936a06bd04e72ff7a1739adf059d7796de879eb9bd92c72783cade4ef8f",
+        "src/Output.php": "83441bdf15de0f6cecb7a00207e2f391383f4f22c3010c00cbaf624b41800139",
+        "src/Stack.php": "153ac904aabc86770527104a3eacf029ff49b9ade6f487261395898572f4e8e2",
+        "src/Subset.php": "c5aeb3325961962babdd02fdd148d42c7cb6f749bf51d224a443189c051e30cb",
+        "src/UniToCid.php": "b62115230f54e945903151e3a0f0e6731f0e80b9c1e662b77d52919260b07ee7",
+        "src/Zlib.php": "03bc5a86639c3d2e382f494aa7c69b6c0b11c7fdd6c60f3f138cc48de9061e22"
+    }
+}

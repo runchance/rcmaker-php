@@ -1,0 +1,24 @@
+{
+    "package": "dragonmantank/cron-expression",
+    "version": "3.6.1",
+    "reference": "4189372ffeff09bf14f731f67a9de90c7b413ebe",
+    "source": "https://github.com/dragonmantank/cron-expression",
+    "license": "MIT",
+    "selection": "Complete pristine runtime sources, license and package metadata; tests and CI excluded.",
+    "files": {
+        "CHANGELOG.md": "dffef54b13a73bc8d317437576c07b4003eaf2005b580c84e0cc02367da5048b",
+        "LICENSE": "adbbf6c8829fa66f18592055b0e3abd5da8f721c4d91db0d2251c46f7db1edc5",
+        "README.md": "5e0cb6569b20960628bb52870bb6a15349f49d4e9e2a34de735f7a8688775dfb",
+        "composer.json": "06088dfba9efdf18a7882e967371aa73571f4d4db6c1ba804746176fbe9c29ea",
+        "src/Cron/AbstractField.php": "8aa149c3b534521fa552711ef2fac2b358cc6bee4a17fcb7cb91068062c56935",
+        "src/Cron/CronExpression.php": "d257d01d5f331236e20854c4b0bb611e8dbcc41d9f2c09fa1398a30e00027ca2",
+        "src/Cron/DayOfMonthField.php": "b69d63d2a2890106c1bc544f31cb8df097012018bfb845f97b4d23ca3df538eb",
+        "src/Cron/DayOfWeekField.php": "e10b47a3189aeec98681f699b8ecf2ea216e8f7b87f3aab8ed92618f06fd2f79",
+        "src/Cron/FieldFactory.php": "144f646ff009a6251fa5b2a1826c63ed6e7c99c317746ad18fccbc00dcc4d29a",
+        "src/Cron/FieldFactoryInterface.php": "54559d46e350bbf26a2d8b56efcd98dc2a87c595e32f2a7d9baaab04836e1ed5",
+        "src/Cron/FieldInterface.php": "158a32eded9733c46b9eb36dc61280aa5dfbd03cf7882ed4f6cd9aabdafca79a",
+        "src/Cron/HoursField.php": "a3700e4796bf227c2e24abb719d82b0443aa0fcef14aec13ab72bababe9d2694",
+        "src/Cron/MinutesField.php": "0c252110936b309818b4c5747547af0a4a9698de01aeeffc725e3851ae3b643c",
+        "src/Cron/MonthField.php": "96ef40989010fba773e494f35e378894a18a9e08def04508995328aa74c49b49"
+    }
+}

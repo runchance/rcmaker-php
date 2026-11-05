@@ -1,0 +1,121 @@
+{
+  "name": "runchance/rcmaker-php",
+  "type": "composer-plugin",
+  "description": "High-performance PHP applications with project initialization, isolated app processes and standalone delivery.",
+  "keywords": [
+    "php http framework",
+    "oneness of fpm and cli mode",
+    "high performance",
+    "standalone http service",
+    "standalone php process manager"
+  ],
+  "homepage": "https://rcmaker.runchance.com",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "wobless",
+      "email": "wobless@runchance.com",
+      "homepage": "https://github.com/runchance",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.5.12",
+    "composer-plugin-api": "^2.2",
+    "workerman/workerman": "^5.2.3",
+    "nikic/fast-route": "^1.3"
+  },
+  "bin": ["bin/rcmaker"],
+  "extra": {
+    "class": "RC\\Project\\ComposerPlugin"
+  },
+  "autoload": {
+    "psr-4": {
+      "RC\\": "src"
+    },
+    "files":[
+      "src/Start.php"
+    ]
+  },
+  "conflict": {
+    "runchance/rcmaker-framework": "*",
+    "smarty/smarty": "!=5.8.5",
+    "topthink/think-template": "!=3.0.2",
+    "twig/twig": "!=3.30.0",
+    "illuminate/view": "!=13.39.0, !=13.40.0",
+    "overtrue/pinyin": "!=6.0.1",
+    "jasongrimes/paginator": "!=1.0.3",
+    "symfony/http-foundation": "<8.1.10 || >=8.2",
+    "illuminate/database": "!=13.39.0, !=13.40.0",
+    "illuminate/events": "!=13.39.0, !=13.40.0",
+    "illuminate/pagination": "!=13.39.0, !=13.40.0",
+    "mongodb/laravel-mongodb": "!=5.12.0",
+    "workerman/globaldata": "!=1.0.6",
+    "mix/database": "!=3.0.23",
+    "mix/redis": "!=3.0.11",
+    "mix/object-pool": "!=3.0.27",
+    "workerman/redis": "!=2.1.0",
+    "workerman/redis-queue": "!=1.2.2",
+    "predis/predis": "<3.7.0 || >=4.0",
+    "dragonmantank/cron-expression": "!=3.6.1",
+    "zxf/captcha": "!=1.1.0",
+    "gregwar/captcha": "<2.1.1 || >=2.2",
+    "symfony/stopwatch": "<8.1 || >=8.2",
+    "php-curl-class/php-curl-class": "!=13.0.1",
+    "phpmailer/phpmailer": "<7.1.1 || >=8.0",
+    "catfan/medoo": "<2.6.1 || >=3.0",
+    "firebase/php-jwt": "<7.2.1 || >=8.0",
+    "topthink/think-orm": "<4.0.51 || >=5.0",
+    "topthink/think-cache": "<3.0.1 || >=4.0",
+    "topthink/think-container": "<3.0.2 || >=4.0",
+    "topthink/think-helper": "<3.1.12 || >=4.0",
+    "mk-j/php_xlsxwriter": "<0.39 || >=0.40",
+    "avadim/fast-excel-reader": "<4.5.0 || >=5.0",
+    "avadim/fast-excel-helper": "<1.4.0 || >=2.0",
+    "tecnickcom/tcpdf": "<7.0.21 || >=8.0",
+    "tecnickcom/tc-lib-pdf": "<8.83.0 || >=9.0",
+    "tecnickcom/tc-lib-barcode": "<2.17.3 || >=3.0",
+    "tecnickcom/tc-lib-color": "<3.0.14 || >=4.0",
+    "tecnickcom/tc-lib-file": "<3.9.10 || >=4.0",
+    "tecnickcom/tc-lib-pdf-font": "<4.8.0 || >=5.0",
+    "tecnickcom/tc-lib-pdf-image": "<3.15.3 || >=4.0",
+    "tecnickcom/tc-lib-pdf-page": "<4.18.1 || >=5.0",
+    "tecnickcom/tc-lib-pdf-graph": "<2.18.7 || >=3.0",
+    "tecnickcom/tc-lib-pdf-parser": "<3.16.7 || >=4.0",
+    "tecnickcom/tc-lib-pdf-filter": "<2.11.9 || >=3.0",
+    "tecnickcom/tc-lib-pdf-encrypt": "<2.12.2 || >=3.0",
+    "tecnickcom/tc-lib-pdf-sign": "<2.0.10 || >=3.0",
+    "tecnickcom/tc-lib-unicode": "<3.2.3 || >=4.0",
+    "tecnickcom/tc-lib-unicode-data": "<3.1.3 || >=4.0"
+  },
+  "suggest": {
+    "catfan/medoo": "Optional stable ^2.6.1; RC adapters keep the bundled fallback and PostgreSQL table-scoped identity handling.",
+    "smarty/smarty": "Optional exact stable 5.8.5; pristine bundled fallback, isolated RC template data and PHAR file-resource support.",
+    "topthink/think-template": "Optional exact stable 3.0.2; pristine bundled fallback, fresh per-render RC engines and atomic compile-cache writes.",
+    "twig/twig": "Optional exact stable 3.30.0 for RC\\Helper\\View\\Twig; not bundled.",
+    "illuminate/view": "Optional stable 13.40.0 for RC\\Helper\\View\\Blade; tested 13.39.0 remains supported. Not a full Laravel application.",
+    "overtrue/pinyin": "Optional exact stable 6.0.1; RC preserves legacy string APIs and adapts PHAR dictionaries without editing native sources.",
+    "jasongrimes/paginator": "Optional exact stable 1.0.3 page-window engine; RC supplies validation, safe HTML and simple/data/JSON contracts.",
+    "symfony/http-foundation": "Optional stable 8.1.10+ (8.1.x) IpUtils/HeaderUtils for trusted proxies and multipart parameters; unchanged bundled utilities are used otherwise.",
+    "illuminate/database": "Optional stable 13.40.0 Eloquent/query builder; tested 13.39.0 remains supported. Enable RC\\Helper\\Db\\Laravel in bootstrap.",
+    "illuminate/events": "Optional stable 13.40.0 for Eloquent observers and deferred transaction events; tested 13.39.0 remains supported.",
+    "illuminate/pagination": "Optional stable 13.40.0 for native paginator APIs; tested 13.39.0 remains supported. SDB keeps its RC paginator.",
+    "mongodb/laravel-mongodb": "Optional exact stable 5.12.0 plus ext-mongodb; RC document models use RC\\Model\\MongoDB.",
+    "workerman/globaldata": "Optional exact stable 1.0.6 engine; use RC\\Helper\\GlobalData adapters for bounded, object-free transport.",
+    "mix/database": "Optional exact stable 3.0.23 primitives; use the RC PHP 8.5 compatibility API rather than the unmodified native query core.",
+    "mix/object-pool": "Optional exact stable 3.0.27; historical pools still require Swoole and do not enable Workerman coroutines.",
+    "workerman/redis": "Optional exact stable 2.1.0; queue adapters use callback mode without introducing coroutine requirements.",
+    "workerman/redis-queue": "Optional exact stable 1.2.2; RC keeps isolated connections and atomic delayed promotion in its adapter.",
+    "predis/predis": "Optional stable 3.7+ synchronous Redis/cache/queue client when ext-redis is unavailable.",
+    "dragonmantank/cron-expression": "Optional exact stable 3.6.1; RC preserves second-level rules and day-field AND matching with separate adapters.",
+    "zxf/captcha": "Optional exact 1.1.0 slider engine; RC isolates native sessions and supplies its own offline widget.",
+    "gregwar/captcha": "Optional external Captcha 2.1.x; the bundled pristine engine is used otherwise.",
+    "symfony/stopwatch": "Optional external Stopwatch 8.1.x; compatible Composer sources take precedence over the bundled fallback.",
+    "topthink/think-orm": "Optional ThinkORM engine and models (^4.0.51); enable RC\\Helper\\Db\\Think in bootstrap."
+  },
+  "archive": {
+    "exclude": ["/data", "/official", "/agent", "/.idea", "/.github"]
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

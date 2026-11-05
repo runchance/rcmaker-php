@@ -1,0 +1,12 @@
+{
+  "package": "catfan/medoo",
+  "version": "2.6.1",
+  "source": "https://github.com/catfan/Medoo",
+  "reference": "54fbd8f509329c287600db05e10e4b3a7562b9d0",
+  "license": "MIT",
+  "files": {
+    "src/Medoo.php": "cd159650a765c75cf3cac7ece85bf4f0a26dcd7258dc8c7d01f051e8d1798f14",
+    "LICENSE.md": "eda64557d8be3769ea48f76d410375c7acf82f4127821834f0b2e68592c9a161"
+  },
+  "modifications": "None. RCMAKER behavior is implemented in src/Helper/Db/Medoo/Medoo.php."
+}

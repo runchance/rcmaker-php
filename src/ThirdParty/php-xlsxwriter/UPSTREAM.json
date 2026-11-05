@@ -1,0 +1,10 @@
+{
+  "package": "mk-j/php_xlsxwriter",
+  "version": "0.39",
+  "commit": "67541cff96eab25563aa7fcecba33e03368fa464",
+  "source": "https://repo.packagist.org/p2/mk-j/php_xlsxwriter.json",
+  "files": {
+    "LICENSE": "599662499a0fc6f33a535d3b04181f06da11994a469f7724f9bd337efd358a6e",
+    "xlsxwriter.class.php": "af50a690d25f45673d6e702714e830efa46ff6ed17543a4621af04f8ed02ce45"
+  }
+}

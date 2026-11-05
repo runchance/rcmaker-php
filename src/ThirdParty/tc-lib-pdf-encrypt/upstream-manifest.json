@@ -1,0 +1,25 @@
+{
+    "package": "tecnickcom/tc-lib-pdf-encrypt",
+    "version": "2.12.2",
+    "reference": "887921e1fef98dc9885b33b85cbcd1b222b4b7dc",
+    "source": "https://api.github.com/repos/tecnickcom/tc-lib-pdf-encrypt/zipball/887921e1fef98dc9885b33b85cbcd1b222b4b7dc",
+    "files": {
+        "LICENSE": "7b72d77f811d38da2302a3ee2d86613f481027a1cd2ef1decfec35bb2d1874b7",
+        "composer.json": "9dba5e5efa9a749436f523b58ab01f4778c0451c0aa08a9765af38661fa51f52",
+        "src/Compute.php": "984c27684e2309252cfdec51efca93c05746221ae3612c99496be434553724fe",
+        "src/Data.php": "d4f0a2173854fece6e3a2b086c613c41be8186a9b1c02ae7c173f3501e2b78a7",
+        "src/Decrypt.php": "a5f864594bf678ed40428102c4443af26c0987d8fc85214299edd1417d464a55",
+        "src/Encrypt.php": "7819331380abbb0b60b43692d50cf710cb37e9ddd8d5f5f9a5ae15f0db5b9f42",
+        "src/Exception.php": "f94a9ae9bac9f5ce5df3c05e1738c805454ac7e1f630cdf8bfee7cda58a83341",
+        "src/Output.php": "cc7030dedfad0f08ee12b4f19ff576117fbd4a7d4bb13c5c985c16c01bf67968",
+        "src/Type/AES.php": "3fb7261235ba8e3b10894d9503c4cd3b57bf07e669918ff7bb57961752637e4d",
+        "src/Type/AESSixteen.php": "471bd3cf0d11f42d33bda221baf3cd85eac862b8384734bc9b16869c7d21bce0",
+        "src/Type/AESThirtytwo.php": "504262462e5141792b63b206f03ec871d38b2b0cd6846d72527f5d596b0b8058",
+        "src/Type/AESnopad.php": "9f90691754d2665c45088d512ed549a56deae01a60c8b055f2a2074898a0e37f",
+        "src/Type/MDFiveSixteen.php": "28ec5549ce79989b599cd1f457db5932bd811bd50dd63bd13f64db7489f7cad9",
+        "src/Type/RCFour.php": "8e980a1bf4cef93d4161bcee416ecdd2695a8c4911b33a0150978ec420bdf60e",
+        "src/Type/RCFourFive.php": "e7b46d90efdd1cdce46326e275ee6bef03085d4f4c62fe939a97bb19d9e9b986",
+        "src/Type/RCFourSixteen.php": "5cb933efbefcb40c27f9544acdc3dca0d789b8c2602092113a75d7183c0775e1",
+        "src/Type/Seed.php": "be8b5ec680c59ad15557740f0f4788eed8049f400a0a74ab6f7162f978452ffc"
+    }
+}

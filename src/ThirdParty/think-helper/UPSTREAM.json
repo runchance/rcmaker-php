@@ -1,0 +1,16 @@
+{
+  "package": "topthink/think-helper",
+  "version": "3.1.12",
+  "commit": "fe277121112a8f1c872e169a733ca80bb11c4acb",
+  "source": "https://repo.packagist.org/p2/topthink/think-helper.json",
+  "files": {
+    "LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "src/Collection.php": "11f0cbea84e0786784417ed6815ced5ecc7657a8939e1488960033e59f303b33",
+    "src/contract/Arrayable.php": "7b792cab9433bbec0cb5f39e318d688d9f4ab95fe8b6772292ee8d0308cb1e5a",
+    "src/contract/Jsonable.php": "b1ded452e5909004ccfa2328872d8cccee320831a289c050a6d82ef89c627f63",
+    "src/helper.php": "ac71d22d7330db38089cc10ae899ef3f2c7630c06cf872be58692f0fcfa8e89f",
+    "src/helper/Arr.php": "f29071cbf20f7bcc3ef1738707f22231279e46a8428fa441d2f4af7d909c2b0c",
+    "src/helper/Macroable.php": "a6ff5a36b46002f7c1441d4831f900fdd5d55f39e1ad6d14fb5a6208d0579d3d",
+    "src/helper/Str.php": "0058b7f71e78a7a9f6e6468da52470820e520776774e7bd0a71650c7182ae460"
+  }
+}

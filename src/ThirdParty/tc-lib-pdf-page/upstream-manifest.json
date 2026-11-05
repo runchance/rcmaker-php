@@ -1,0 +1,23 @@
+{
+    "package": "tecnickcom/tc-lib-pdf-page",
+    "version": "4.18.1",
+    "reference": "86f854489301a79533454d3ca8d9d918cec95cb9",
+    "source": "https://api.github.com/repos/tecnickcom/tc-lib-pdf-page/zipball/86f854489301a79533454d3ca8d9d918cec95cb9",
+    "files": {
+        "LICENSE": "2f6c57c249dac00af0b514db64a58228437f79b480a4dee3d9a2ae72a33bee3e",
+        "composer.json": "6d4d19ce2e89b14e3cfd64a4580036b7dc97f81f84c8feac18f861c1d8370f98",
+        "src/Box.php": "f803e1c9539b88c1c412ecf76993ad6fbc7c5c064f86af59f69d02e1494c2c97",
+        "src/Exception.php": "a174dc66c38145606d56a07c6f7b6e358e0e4e048de910a489410b9099d38a08",
+        "src/Format.php": "2475e91554c390f661c95049eec355b93740e158023dff5c470f1771be4c5f1f",
+        "src/Mode.php": "bae3ad731d0659aaf452d33d72b248a93f17578498e6d188c863b40475911bce",
+        "src/Orientation.php": "b6e325133f01ffb601507a614ee48156ba5f58ea8a7a720b0fd017e5f1af9ce5",
+        "src/Page.php": "3bd825df2cc357b4666ff572a78777d24a0091a8edc8838a6647e5ca1560fed3",
+        "src/PageBoxType.php": "c91fd52c27b33473d41bac0debf7ad6a772b4b7f2ee53d6ecedf05a395526bbb",
+        "src/PageDisplayMode.php": "e4607560f15c387b1da00264c508888afe724841cf37146141129d7c11450f01",
+        "src/PageLayout.php": "9963718d5a8e9679a6a25d09b276678f0f819fba542b3266b958312a76a5e8ea",
+        "src/Region.php": "04d65743d4d63d51c16e10faba30e3a2a71caeab7267d029135de13ea5a3d741",
+        "src/Settings.php": "9c1d60c17bc81f348b502665ce98802757bd31e2ece32f0ebc574f6b617f7451",
+        "src/TransparencyGroupMode.php": "9857c1808ebdbc5bd55b441f5e05b798c845871d94de9857ef43a1975b9393d5",
+        "src/Unit.php": "d510ee274b2d3909f25a7f9e9faa2d636a445320debe021261abc536506ffdca"
+    }
+}

@@ -1,0 +1,46 @@
+{
+  "package": "firebase/php-jwt",
+  "version": "7.2.1",
+  "repository": "https://github.com/googleapis/php-jwt",
+  "commit": "0501f5729b9e2448516674aff07c7d1727869b8e",
+  "license": "BSD-3-Clause",
+  "modified": false,
+  "files": [
+    {
+      "file": "src/BeforeValidException.php",
+      "sha256": "77fe003a44eb941bfd2fac7399f8ca761511a2ad49117f093ef12489b6f09cd0"
+    },
+    {
+      "file": "src/CachedKeySet.php",
+      "sha256": "835406341fb1b5770330e103ae41106a5cb04ce41eb2976fee008e0441213854"
+    },
+    {
+      "file": "src/ExpiredException.php",
+      "sha256": "fe92315afbde5a898deabc1562b0f1bc3793bade3c2e61231619aa4849cf476d"
+    },
+    {
+      "file": "src/JWK.php",
+      "sha256": "f4895c87128079ec16ba130b0eab0717a34622afb1578e42bb4dec61f4728411"
+    },
+    {
+      "file": "src/JWT.php",
+      "sha256": "fa59d2771a8a6542cb33f40de460fd60f54c49b0334a568b1697be7154f6522c"
+    },
+    {
+      "file": "src/JWTExceptionWithPayloadInterface.php",
+      "sha256": "899678f85fe560248895cf921b70ec95ad87b68d5c4da4ff561870d6942cacac"
+    },
+    {
+      "file": "src/Key.php",
+      "sha256": "458bc77981ae49a8fd15dee7781d5b69e88e701536901488a90241134d522e07"
+    },
+    {
+      "file": "src/SignatureInvalidException.php",
+      "sha256": "fc624b17bf730387079c3b25dd282743259bd3c6c20920e007879412c85ebdee"
+    },
+    {
+      "file": "LICENSE",
+      "sha256": "00e641cb185172e752bb3ab744925502c099dca06c9ecf53ea6fba941a65910c"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "package": "symfony/stopwatch",
+  "version": "8.1.0",
+  "reference": "21c07b026905d596e8379caeb115d87aa479499d",
+  "source": "https://github.com/symfony/stopwatch/tree/21c07b026905d596e8379caeb115d87aa479499d",
+  "license": "MIT",
+  "files": {
+    "CHANGELOG.md": "715c07e32222b441f533d56f2dd7cba74fa367fdcaf7a6bbc50a5d8e24707932",
+    "composer.json": "da2ca13e047af5f7b5e6ee1817a11faa66344539a330b0cb120b1857704d5beb",
+    "LICENSE": "18da7e490d2aa77197a0619b25bcc771a0110132a9d76071665718d3295e73cb",
+    "README.md": "af25b4ef38969c41f7dd002a501ee7e0dcd513fee09e65872240287f1140124a",
+    "Section.php": "63785203b1d53bd391753c3fc3758868e1e73a5c0a863c7b1ea091a9b35b0b21",
+    "Stopwatch.php": "8a12a7f1bba284cb4baddf9fce5dae85251f29e9905db14b2fa75ba3a0c13a3b",
+    "StopwatchEvent.php": "e0ef7bfd68c7ffee527015a448759e9e5d478d3ad8ab3c6ca4c11fe6b4c37384",
+    "StopwatchPeriod.php": "5e6a8959701785fa64ad438c3ce23505d04806481b545615c82975ee864037fc"
+  }
+}

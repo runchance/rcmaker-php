@@ -1,0 +1,13 @@
+/vendor/
+/runtime/
+/build/
+/data/
+/.env
+/ssl/
+/php
+/php.exe
+/composer
+/composer.phar
+/rcmaker-ai-devkit.zip
+*.log
+*.pid

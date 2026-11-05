@@ -1,0 +1,16 @@
+{
+    "package": "tecnickcom/tc-lib-pdf-parser",
+    "version": "3.16.7",
+    "reference": "f83cadbc3b347732ed928cd7b654589688812c5f",
+    "source": "https://api.github.com/repos/tecnickcom/tc-lib-pdf-parser/zipball/f83cadbc3b347732ed928cd7b654589688812c5f",
+    "files": {
+        "LICENSE": "6261de925cb87ba8bdfb48f41a65c25a9269bab17f2c6f7c31d2b4812b8c388f",
+        "composer.json": "edb1eaf7e23048be0101a7f91186e456da4169b81c55677719c0dab9ba6adc3d",
+        "src/Exception.php": "2d4087417b55932ab0201bbe185de2d6195ad229b68f8061cce7c09a6d714314",
+        "src/LimitException.php": "141ab17a748683f36c669a38e6019071ed6bd37372f6dc2f967f263fe8995510",
+        "src/Parser.php": "b6872a51ae16c0013db1cfe3a71c76ec09bbd20e4d54acc149e722325632c722",
+        "src/Process/RawObject.php": "538022c85f6492e07afcaa5d828b9072b5644b7c45ef3c0c69dfca62c5cacdaa",
+        "src/Process/Xref.php": "5ccdff326c264e3b276536f6fd6bbc3f3d87ce9d879546b197ce7397f48dc73a",
+        "src/Process/XrefStream.php": "a7b61022d2a9c2f000e6e511ef98c7f884fa089f7aae04bfe4f384d67f71d69b"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "package": "workerman/redis",
+    "version": "2.1.0",
+    "reference": "36b16ab963b820aec94b819a1fdf84a04e005d11",
+    "license": "MIT",
+    "files": {
+        "CHANGELOG.md": "9519845b7994816c19ad4524aa1a3de354d0df85d95d99d664af4f3cb1e86e96",
+        "LICENSE": "d020ff649316eec734c520a836d698bd59231ec2d6c9a5c4c63115f4034a297e",
+        "README.md": "34efbb9f97cc130ecdcd8637dff97ac269925ce04469e19b7f79e365295178bc",
+        "composer.json": "be50062bb8632499126679961a3aa83a21a4eae76d1c2e6b2525c0003c67f4e9",
+        "src/Client.php": "817fdf0f3a46bd379c3b3ef69a62e750912887c9e8eef6b2356b7b2ecd8766d2",
+        "src/Exception.php": "ba8633bce74f33f6632949b48ac2fb845ca9746c177ce0d4b40492551755b888",
+        "src/Protocols/Redis.php": "aa5572717b9a766b6cbc7f53428e5ab0d4f4b4f333262ae1a2933b6cf607499d"
+    }
+}

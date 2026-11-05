@@ -1,0 +1,19 @@
+{
+    "package": "tecnickcom/tc-lib-pdf-graph",
+    "version": "2.18.7",
+    "reference": "d023027a7f89e63aa50fda127571f5b86d1d6f1f",
+    "source": "https://api.github.com/repos/tecnickcom/tc-lib-pdf-graph/zipball/d023027a7f89e63aa50fda127571f5b86d1d6f1f",
+    "files": {
+        "LICENSE": "62a4a51d73bc3336e8a0707e2b588590185b568279d1bec4ca0c1728879d32b8",
+        "composer.json": "79ab7388e025bd6ca49c38733072067308b7e9fc92b35af0d2fcf12a39debbdb",
+        "src/Base.php": "9949324a5c9ca1797063184dffdb9a9b31fc24e10ca1d3bd563ce5fb46858c38",
+        "src/BlendMode.php": "20995592e15e3c4d4409249f168182a14649e710a6d5325df9904d5292b055f9",
+        "src/Draw.php": "7a78930a4ae188f529f3e496ef3dbd30c35aa4b60262328dfdde91a4a6db9cd7",
+        "src/Exception.php": "2baec36eb266d2ad27b198ebb7d2bd9cd48a5dead279e045982ff01721b7edb2",
+        "src/Gradient.php": "8250aafeca6deb93a6d9b0adc1d06178b8350beb40d3430a2955a87e2d86deca",
+        "src/PathPaintOp.php": "5c207f2857ab67e63330bcc42b5a82e2b1d7d9d1781d6dc09c31a6e308876b33",
+        "src/Raw.php": "367f4af6947d0cb1fb74262d88cebe7358504b9a98e0ebac04593f8cf4003739",
+        "src/Style.php": "2b4d92bd927a6d6a5592ea05daf8779f0240a1d96d914d22f1ccb2370bbfb2f4",
+        "src/Transform.php": "9572ada06bb48dd7989cfcc18a8d164dbef4d0d1feadb9bacefc3af828ddffe7"
+    }
+}

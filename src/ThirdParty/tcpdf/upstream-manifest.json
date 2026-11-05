@@ -1,0 +1,14 @@
+{
+    "package": "tecnickcom/tcpdf",
+    "version": "7.0.21",
+    "reference": "5108fa5cb0a362ef70c94cc3f448ba151ce794b9",
+    "files": {
+        "LICENSE.TXT": "b487950190a6516795240c2b155649e0309c2cad8e5b161d5ce2e3e4b022763e",
+        "MAPPING.md": "e98b649d9f3ac08aa6e5871be37dc8b00398d825d648e29f6bfdfc0fa5176a14",
+        "VERSION": "b23d8d9814815dcfb987e70430e004018460e47854543d604c4419a3fa9fa7b9",
+        "composer.json": "9fd41d52846e097cf1443bb40644e4b314fcefe7eee8f69099190f4068a05588",
+        "tcpdf.php": "9144b10781a91319dd039053c67f36bed44512c1628a48b83311cfbab69e130b",
+        "tcpdf_autoconfig.php": "79620370173cdd898a6dd9dc0819879d1587330d43897f8af048c28fed8bacea"
+    },
+    "source": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/5108fa5cb0a362ef70c94cc3f448ba151ce794b9"
+}

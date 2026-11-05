@@ -1,0 +1,21 @@
+{
+    "package": "tecnickcom/tc-lib-unicode-data",
+    "version": "3.1.3",
+    "reference": "597a62c86c96a655d1d35e3d585ebec1232ad152",
+    "source": "https://api.github.com/repos/tecnickcom/tc-lib-unicode-data/zipball/597a62c86c96a655d1d35e3d585ebec1232ad152",
+    "files": {
+        "LICENSE": "10923bdf8f265ae66afae5eeb0ba87d276b4a76b4e1bf935e274654e33df9e22",
+        "composer.json": "07ba69d9f7a7f53137dba49a7e13de11598918fe13f5e8c795fd7fcd14d12095",
+        "src/Arabic.php": "84870beb4b9ebd1d0a054ad292f808585b0f11f61cf66b6a5f0c2c199a75c942",
+        "src/BidiClass.php": "f6c3b4a4f6611f458fab1f7f51d0409c42367110fafa0b6e79a78af8c5a61b8f",
+        "src/Bracket.php": "f14e4c71bb9d2cf5caf03a3befbfac2fa65758be1ed31b32e43e1862227cdbea",
+        "src/Constant.php": "0266e7df334bdb199c5a0d13d0648354908d1cca56911c49ad8adcd9ae889004",
+        "src/Encoding.php": "88afa7bed9e4cda922d244e4edb6c5ead0b95050e6e189667833bfd24dc15b86",
+        "src/Identity.php": "b0571ad161d630ca95465e796eaa282c0c50aabc04d6adcf7d5c6c6bf01d09a8",
+        "src/Latin.php": "54583db19b9f8a101a5df951a9adb3c57e6e0f59094ba6982cf8272a94936d05",
+        "src/LineBreak.php": "5090e2e297e797fb51a23c818cac7d1c8dd736952a8eeaaf3ec9128a292165d0",
+        "src/Mirror.php": "061c1ce39157be7eb936a2282e6ca91155e43a13fbdc80d7a4c51d2fea5f5b3c",
+        "src/Pattern.php": "ec2c41886457acd346820511c76d87f0c723bdb7e2214b87e02c7f674441e2e3",
+        "src/Type.php": "93c67d9214c75709b71a36aac6f4d1ff6d9cfe083b88237ff9fcf4489bb60938"
+    }
+}

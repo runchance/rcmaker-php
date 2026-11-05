@@ -1,0 +1,12 @@
+{
+    "package": "workerman/redis-queue",
+    "version": "1.2.2",
+    "reference": "f0ba4ea9143ae02f39b998ed908d107354cb43c0",
+    "license": "MIT",
+    "files": {
+        "README.md": "6b9d7411965146ff0ad08ff2d1ac2b6290cc950da84412e2573cf50e189fc4e0",
+        "composer.json": "8ed92088f4be4b3fd410b69e142e4b7c816f00b916becff9e1ce2b914d14b408",
+        "src/Client.php": "16520d83a56960a7c56b548e8d504ead7bf1b4e4f1954857551ab49e7ccf7886",
+        "src/UnretryableException.php": "a84fe1e9bdfd99ffc634b260672b973e0689d5b73ef5ed77d210c2ac60290d00"
+    }
+}

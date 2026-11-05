@@ -1,0 +1,22 @@
+{
+  "component": "RC HTTP response and native streaming adapter",
+  "package": "workerman/workerman",
+  "version": "v5.2.3",
+  "reference": "8fd5c148ff7dcd7bbc88621e1712eeb1f66b7f56",
+  "source": "https://github.com/walkor/workerman/tree/v5.2.3/src",
+  "license": "MIT",
+  "license_file": "MIT-LICENSE.txt",
+  "pristine": false,
+  "selection": "RC inherits native response framing, MIME mappings and cookie formatting. Metadata/SAPI/HEAD/bodyless/conditional adapters and a facade-owned large-file completion wrapper remain in RC. Native protocol, response, TCP transport, Chunk and SSE files are unchanged.",
+  "reason": "Avoid encoded-packet bodies, conflicting framing, dropped error headers and premature close/reentrant dispatch during native backpressured file streams. Normal strings retain their direct native transport path.",
+  "upstream_sha256": {
+    "src/Protocols/Http/Response.php": "e48ed60f811ac2f9b4f0467b08d1f706622643cffc79d560b9387157bf76c7f9",
+    "src/Protocols/Http.php": "36f7784d83dd7a343fe9f33d37400c5339c0f32be5b63a85e88c15d9c83f575d",
+    "src/Connection/TcpConnection.php": "b06cc650b3ab057492a291071869d8a292c123c1a714e63c6ee50078034dd703",
+    "src/Protocols/Http/Chunk.php": "c9f3e64fa69334d00a0237968d1dbb61a9e5da5aab7ef766202aea761632e28e",
+    "src/Protocols/Http/ServerSentEvents.php": "56b61cc18f0e377d6dc6359de7ad2ba547aa2bff30bba5bca2b0496df886c110",
+    "MIT-LICENSE.txt": "0a77f54280481fe115d620c0e00a0962a61432652c4e832ef5963fa91ede646d"
+  },
+  "internal_dependency": "Large-file receive-pause ownership reads native TcpConnection::isPaused via one cached ReflectionProperty. No protected transport fields are mutated. Public send/pauseRecv/resumeRecv/buffer-size/callback APIs and the native public context streamSending flag coordinate completion.",
+  "scope": "Response checkpoint, not complete framework, proxy, logger-process, shutdown-quota, sustained-resource or Micro/encrypted binary acceptance."
+}

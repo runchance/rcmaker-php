@@ -1,0 +1,16 @@
+{
+  "component": "RC File and UploadFile",
+  "package": "topthink/framework",
+  "version": "v8.1.4",
+  "reference": "8e7b2b2364047cbf71a38c4e397a9ca0d4ef2b01",
+  "source": "https://github.com/top-think/framework/tree/v8.1.4/src/think",
+  "license": "Apache-2.0",
+  "pristine": false,
+  "selection": "RC-adapted File metadata and UploadedFile fragments, not a bundled ThinkPHP framework or pristine upstream classes.",
+  "reason": "Keep RC UploadFile::move(fullDestination):bool and Workerman userland temporary files; native UploadedFile::move(directory, name):File and is_uploaded_file ownership are incompatible with that public contract.",
+  "upstream_sha256": {
+    "src/think/File.php": "3f91ee968c5b710ff61034786ff94af9d54034f3b9eb5dff4052f8896be45ae5",
+    "src/think/file/UploadedFile.php": "ebae24ff8c4a78d98a5afece38be6a766435abeff7c53dc07504dce11b8a9604",
+    "LICENSE.txt": "9177c61a2c982a34010ca0266e31c4ce4e0bb8b7e67ec929e67c05a3b37b80ff"
+  }
+}

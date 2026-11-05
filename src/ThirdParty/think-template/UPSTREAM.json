@@ -1,0 +1,28 @@
+{
+    "package": "topthink/think-template",
+    "version": "3.0.2",
+    "reference": "0b88bd449f0f7626dd75b05f557c8bc208c08b0c",
+    "archive_sha256": "2ee637a2131e745178c63b141f0c91e3e226af1389a17ee8a7a1a1d2113dea35",
+    "dist": {
+        "url": "https://api.github.com/repos/top-think/think-template/zipball/0b88bd449f0f7626dd75b05f557c8bc208c08b0c",
+        "type": "zip",
+        "shasum": "",
+        "reference": "0b88bd449f0f7626dd75b05f557c8bc208c08b0c"
+    },
+    "require": {
+        "php": ">=8.0.0",
+        "psr/simple-cache": ">=1.0"
+    },
+    "files": {
+        "LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+        "README.md": "9bd027856bc7b0a808e45ad7793ff35450f207f9a951e9e0d9f568803bc27159",
+        "composer.json": "acc1d038cd338d2e5f3fdc0bb19c384bf5d260cb1c0d8f3d2678226eada82314",
+        "src/Template.php": "d4338d5ae4b2f4a308dff023755d4f72bd5dce120d7f4f29d90d24af73a86087",
+        "src/facade/Template.php": "6339ef02621943deae9ecdc4d5fcb72068eefcf030d2648c0af4569ba28b0863",
+        "src/template/TagLib.php": "e31bf103524cbb0ba7785fd770ae4aed28faad97e7f5e96006f03d943a524ef1",
+        "src/template/contract/DriverInterface.php": "36a75f82a64cfc27fa4ab86910d17b599e110c1229bfcb28a097ed25b7ead6ab",
+        "src/template/driver/File.php": "ce3b187a6117d9b3df5adf98d9dd2271faf63b5f1991ef461168b72ada1a181d",
+        "src/template/exception/TemplateNotFoundException.php": "31bb1e8c914710d8d475c80b807965901b4066aae781febe309d5174529a9eaf",
+        "src/template/taglib/Cx.php": "b2f0d5b6345922fca270081238402feec34debbac0a9c4981c54ea35fc60b003"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "upstream": "overtrue/pinyin:6.0.1",
+    "entries": 41497,
+    "source_sha256": "3982a391ae876b1db77947b83e1e0921b4942a1c989845eb68b3c0f39e35c2d8",
+    "index_sha256": "088be9e494c8cda2be463f235bec1da6957819a29e14ffb582e9ca5019ee451f"
+}

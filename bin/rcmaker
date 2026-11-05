@@ -1,0 +1,21 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+if (PHP_OS_FAMILY === 'Windows' && function_exists('sapi_windows_cp_set')) {
+    @sapi_windows_cp_set(65001);
+}
+
+// Project tools must also work before Composer has installed any dependencies.
+spl_autoload_register(static function (string $class): void {
+    $prefix = 'RC\\Project\\';
+    if (str_starts_with($class, $prefix)) {
+        $file = dirname(__DIR__) . '/src/Project/' . substr($class, strlen($prefix)) . '.php';
+        if (is_file($file)) {
+            require_once $file;
+        }
+    }
+});
+
+exit(\RC\Project\Command::run($argv));

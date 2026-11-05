@@ -1,0 +1,40 @@
+{
+  "name": "mix/database",
+  "version": "3.0.23",
+  "reference": "769d77063182b38d42606d04c5d0723a46438d7a",
+  "source": "https://github.com/mix-php/database/tree/769d77063182b38d42606d04c5d0723a46438d7a",
+  "license": "Apache-2.0",
+  "license_text_source": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+  "license_note": "Release archives declare Apache-2.0 in composer.json and README but contain no license file; an unmodified official license text is supplied separately.",
+  "compatibility_patches": {
+    "src/AbstractConnection.php": {
+      "kind": "php85-explicit-nullable-fetch-style",
+      "runtime_sha256": "ef222babed18ed2ff57a32e789acd4788dcf0b53810d0c6de11ac45baf04b982",
+      "methods": ["queryOne", "queryAll"],
+      "reason": "Only two explicit nullable markers are added. Method bodies and the already-nullable runtime parameter contracts are unchanged. Original hashes remain in files."
+    },
+    "src/Connection.php": {
+      "kind": "php85-explicit-nullable-fetch-style",
+      "runtime_sha256": "6717645ab9a0c6f7ed505455dfa0dee7d5ea077ff5a73b063aaf50ac5eeaca53",
+      "methods": ["queryOne", "queryAll"],
+      "reason": "Only two explicit nullable markers are added. Method bodies and the already-nullable runtime parameter contracts are unchanged. Original hashes remain in files."
+    }
+  },
+  "files": {
+    "composer.json": "eef0d5d18a615e5d760385ab627e74771ec3bff3d7da8cfa30144df29585a072",
+    "LICENSE-APACHE-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "README.md": "ddb7d310157008c107332cfdf2965107ab4a22b8720acdb3656cf2cce1de3e12",
+    "src/AbstractConnection.php": "d46154526e45ac45dbd400e214c9075c997394028352fb0aeaba11d512d4cad8",
+    "src/Connection.php": "149630c7888473fd3895351d4a0b4e7831281c264f456521c72ba4966b8e78a7",
+    "src/ConnectionInterface.php": "c0a9f6a41c05e8d7e4706f0b6fd0ee6c5f261eaf6ffbd2c2f10f2673c5d2b9ed",
+    "src/Database.php": "c30b36f2a22563aebfc6c6ab1c2c83723501fb4216323a48faaae3af87b2a820",
+    "src/Driver.php": "09bf4d0483db5ab3f4f52c7f67f58f1acdd9f27bc621ee8c647f5d5469bc7657",
+    "src/EmptyDriver.php": "7951cf5b6064c095be529682fa0ee9c26554b37dfeb09e1da75649586c1f4805",
+    "src/Expr.php": "3ac543f2d36015bb0337aa0aa4967b697254b6bddad1028f13cf447be00913a5",
+    "src/LoggerInterface.php": "6b25cb7298101799fc60a00e438517adb2ab143131c9cb2c5cccc6f717a87e22",
+    "src/Pool/ConnectionPool.php": "b0d8c64d9a7de64361f20edac7c3472cc31210f412795c6c5f365d502706d60f",
+    "src/Pool/Dialer.php": "69d90cfcb469d46a970ab543512e4535c9f7b1cfc0df942ab3bb1eacb85b25a6",
+    "src/QueryBuilder.php": "781289a0fb04d6d83a6b87a7c10d7f672512d50de769831b87b057dda6491791",
+    "src/Transaction.php": "a5b80d38ea68095481fd8998c3aa0abf07531e7fd7063c9aa64352d631d6b1b0"
+  }
+}

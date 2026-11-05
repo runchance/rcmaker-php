@@ -1,0 +1,24 @@
+{
+  "package": "php-curl-class/php-curl-class",
+  "version": "13.0.1",
+  "commit": "b92dab46aa56e25e377db48d9c7cca1fcbc34d10",
+  "source": "https://github.com/php-curl-class/php-curl-class",
+  "license": "Unlicense",
+  "files": {
+    "CHANGELOG.md": "d4f52281a9eb82ae1139c9747f5fcf8d8e86504ce62fd1022f20e44c511609f7",
+    "LICENSE": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c",
+    "README.md": "5ab520dba68ea3a77a0f863f214cd12765fba584fe6408db37d187d2ca1f3781",
+    "SECURITY.md": "3fbbfe339a02cf48e94803600c072257c620de2e5404c299b069b05de248feff",
+    "src/Curl/ArrayUtil.php": "f5faa9ef1a03f41703d09336db1620f1900c458b5689decf4cbe5cc7085336fb",
+    "src/Curl/BaseCurl.php": "8c87c717fae292d725717243fe612fbcfb28030a87ab365ba6fc3ecb786302c6",
+    "src/Curl/CaseInsensitiveArray.php": "3ca6c90b184a8be065e3a05ca232fb2f1c5c3eab39f4d69379e4a9fa6a27f5d4",
+    "src/Curl/CookieArray.php": "9eb711271f4107deeca4099fc397505d9f0069eec84f625fee3cee5662987705",
+    "src/Curl/Curl.php": "9ae658357c9a4fef7e98033546c991f96c80ef8f08612f759c98c5c1372bc7ab",
+    "src/Curl/Decoder.php": "c45430651451f994e1ec48f08d08ccc7c47ded0b726d6aa0c43e2bf765b931cc",
+    "src/Curl/Encoder.php": "418e22a564ea9a7cfc772abdeeb3c129ff97538fbbe8755be0b01d8d5efa1659",
+    "src/Curl/MultiCurl.php": "af52f1af1240ba9b6d85001790d8bab2b212fa58d5f54c7f1f84715de36177fb",
+    "src/Curl/StringUtil.php": "76dfb4edc53f2378ec9a47f2787ec5de133eabec9d719c03710fccf359e7aa8b",
+    "src/Curl/TimeUtil.php": "fc337ed235b99ed2d4adf11ae02aece953339e30d1bafdeae661c46f636fa5d0",
+    "src/Curl/Url.php": "8bbadaef4c23a5e81dce92da565a5753337461b805df509d080791542455460c"
+  }
+}

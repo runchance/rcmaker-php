@@ -1,0 +1,31 @@
+{
+  "package": "gregwar/captcha",
+  "version": "2.1.1",
+  "source": "https://github.com/Gregwar/Captcha",
+  "reference": "c1e67b3d7ac4f873f785daa366051d7c73d19ca0",
+  "license": "MIT (fonts retain their individual license files)",
+  "files": {
+    "composer.json": "36e7376a6675a7003f40d474d9ce67e96dd5699576cc6cdb679b15dae9e4bd36",
+    "LICENSE": "1fe6149e5bdfa505cb06ee0e546d92158add8161bcb1dd2999504ceaf1cea174",
+    "README.md": "26dbf16e0540c03f317c528093e4d13188c4bb161b42366edaa63c6a6aa8aeee",
+    "src/Gregwar/Captcha/CaptchaBuilder.php": "b3848c8520cccbebb302c720c96a33a04a7e334f99f80ceb060ab458fe8ada4f",
+    "src/Gregwar/Captcha/CaptchaBuilderInterface.php": "e79b7a37cdf6253c8532381861f90326f661cb01f1fb6e29d78c2ab771e519ae",
+    "src/Gregwar/Captcha/PhraseBuilder.php": "72dd71421be4276e8219e5b23968b1f23237cc4ad129916d34f583d6a60f3b84",
+    "src/Gregwar/Captcha/PhraseBuilderInterface.php": "8e6af8b5c379014e2ff1a98e4e87b0701d52744bb60c29ba9fbf4f500248822b",
+    "src/Gregwar/Captcha/Exception/CaptchaException.php": "47783a233e5b503c164d7ca0865d7fb83fcbc41185ff46c50b6ec21a50bf596e",
+    "src/Gregwar/Captcha/Exception/InvalidArgumentException.php": "2f2c0ee231c3fc65cab86dd7a740956b212bfe053ec215c62b700136f0e5bc2c",
+    "src/Gregwar/Captcha/Exception/LogicException.php": "0f3a1c8b011aba6bb6f80ae96d8b0dfdae0bd99857fc968f5993d6c190b834c2",
+    "src/Gregwar/Captcha/Font/captcha0_license.txt": "0fc74640fdcd67c036e1fced58d7e4478897a333cd92b981115a3e324337577f",
+    "src/Gregwar/Captcha/Font/captcha0.ttf": "2f1f8d81a8f9c5d931fd3431b9860a9bebecf7d80c43e950f7cabd2261996248",
+    "src/Gregwar/Captcha/Font/captcha1_license.txt": "2831e3947d33a5745cbaee753ab2c7032616602deb4e0e42fc06eee564099103",
+    "src/Gregwar/Captcha/Font/captcha1.ttf": "e25d066166c7370b9c56a5e05e711f6d79cd4eb8ae8f30dfe731a549e7e78a0b",
+    "src/Gregwar/Captcha/Font/captcha2_license.txt": "34b5d28aebcb26adae3e1fb74842b5c6a3915fb721036ea2b3444f18954331dd",
+    "src/Gregwar/Captcha/Font/captcha2.ttf": "6aa2cfe8fd4a5a3a1e5840fade0e26a6ecd5b839f3535881763132eece3cdd18",
+    "src/Gregwar/Captcha/Font/captcha3_license.txt": "35ec788cc2563811b2c6547847233f64cf48a8af86f05de6316f431d74937300",
+    "src/Gregwar/Captcha/Font/captcha3.ttf": "3dabf3d48bf4599f95cffd92f99ea426a014d5311f52a5eb5ec3af265e97cd97",
+    "src/Gregwar/Captcha/Font/captcha4_license.txt": "e40bcf204f05e77cbedec42b69a238289c7cd2af0dcbb5d8bae8648ab27324b2",
+    "src/Gregwar/Captcha/Font/captcha4.ttf": "c70da378775175891fb5e3639a8a1687de3de23529f17ae2ab3743f5c51ba71e",
+    "src/Gregwar/Captcha/Font/captcha5_license.txt": "704ad7c220e76844d089eb3f5872943031fe06c45b7be5c3879cefa73f4b72bf",
+    "src/Gregwar/Captcha/Font/captcha5.ttf": "57e17aabd8bfa36f9ce790f26a64176abd01f89df2fac8263aa50003daaf81b5"
+  }
+}

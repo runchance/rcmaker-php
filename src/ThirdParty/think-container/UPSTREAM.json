@@ -1,0 +1,13 @@
+{
+  "package": "topthink/think-container",
+  "version": "3.0.2",
+  "commit": "b2df244be1e7399ad4c8be1ccc40ed57868f730a",
+  "source": "https://repo.packagist.org/p2/topthink/think-container.json",
+  "files": {
+    "LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "src/Container.php": "bb4ba0971f7f741efe8ad15e7dd27776aba278801307f37fa3e901301af9889a",
+    "src/exception/ClassNotFoundException.php": "e2d5d1fac5fa7f81c8bbe837c98c31b6fe71b6dc1473eb17ad80e66c4371c038",
+    "src/exception/FuncNotFoundException.php": "a9beb62887b9740b1d97058d7296126805d2c1af6b7f9b928ac9ff6b19407d3d",
+    "src/Facade.php": "9ddd821b4eb6ac8d1cc0fab9907be95c5fbbb2ff723754b2b6739156aec16190"
+  }
+}
