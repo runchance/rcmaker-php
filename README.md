@@ -38,7 +38,7 @@ php index.php start
 
 首次安装时，允许 Composer 加载本包插件，再确认初始化。访问 `http://127.0.0.1:8680/`，看到 `Hello rcmaker!` 即可开始开发。
 
-Windows 初始化时还会生成 `windows.bat`，支持双击启动。`.env.example` 提供完整环境配置参考，默认仍保持独立运行，不自动启用外部服务。
+Windows 初始化时还会生成 `windows.bat`，支持双击启动。`.env` 只保留最小运行配置，完整选项查阅 `.env.example`，按需添加，不自动启用外部服务。
 
 禁用插件或跳过初始化时，手动执行：
 

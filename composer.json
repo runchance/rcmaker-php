@@ -114,7 +114,7 @@
     "topthink/think-orm": "Optional ThinkORM engine and models (^4.0.51); enable RC\\Helper\\Db\\Think in bootstrap."
   },
   "archive": {
-    "exclude": ["/data", "/official", "/agent", "/.idea", "/.github"]
+    "exclude": ["/data", "/official", "/agent", "/PROJECT_CONTEXT.md", "/.idea", "/.github"]
   },
   "minimum-stability": "stable",
   "prefer-stable": true

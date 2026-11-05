@@ -38,7 +38,7 @@ php index.php start
 
 Allow the Composer plugin and confirm project initialization when prompted. Open `http://127.0.0.1:8680/`.
 
-Windows initialization also generates `windows.bat` for double-click startup. `.env.example` lists all supported environment options while keeping standalone defaults; listing external services does not enable them.
+Windows initialization also generates `windows.bat` for double-click startup. `.env` contains only minimal runtime settings; `.env.example` is the complete reference for options you can add as needed. External services are not enabled automatically.
 
 If plugins are disabled or initialization was skipped:
 

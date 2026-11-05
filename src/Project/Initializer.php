@@ -34,6 +34,10 @@ final class Initializer
                 throw new \RuntimeException('Invalid project template.');
             }
             $relative = str_replace('\\', '/', substr($entry->getPathname(), strlen($templateRoot) + 1));
+            // Keep the full example as reference; never read an existing private .env.
+            if ($relative === '.env.minimal') {
+                $relative = '.env';
+            }
             if ($relative === 'windows.bat' && PHP_OS_FAMILY !== 'Windows') {
                 continue;
             }
@@ -55,15 +59,6 @@ final class Initializer
                 $contents = str_replace("\n", "\r\n", str_replace(["\r\n", "\r"], "\n", $contents));
             }
             $changes[$relative] = ['before' => null, 'after' => $contents];
-        }
-        // Do not read an existing .env: its contents are private and initialization preserves it.
-        $env = $files->path('.env');
-        if (!file_exists($env)) {
-            $changes['.env'] = ['before' => null, 'after' => file_get_contents($templateRoot . '/.env.example')];
-        } elseif (!is_file($env)) {
-            throw new \RuntimeException('.env must be a regular file.');
-        } else {
-            $kept[] = '.env';
         }
         $after = Manifest::encode($manifest);
         // Avoid rewriting composer.json merely to reformat it on a repeated init.
